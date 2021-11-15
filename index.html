@@ -20,14 +20,15 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="喜欢黑科技，研究台风">
+  <meta name="description" content="Here&#39;s my treasure for you.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="相子心のblog">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="相子心のblog">
-<meta property="og:description" content="喜欢黑科技，研究台风">
+<meta property="og:description" content="Here&#39;s my treasure for you.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="相子心">
+<meta property="article:tag" content="black-tech,tropical cyclone">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://example.com/">
@@ -167,7 +168,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="相子心">
-      <meta itemprop="description" content="喜欢黑科技，研究台风">
+      <meta itemprop="description" content="Here's my treasure for you.">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -201,6 +202,8 @@
               <span class="leancloud-visitors-count"></span>
               <span>℃</span>
             </span>
+  
+  
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -305,7 +308,7 @@
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">相子心</p>
-  <div class="site-description" itemprop="description">喜欢黑科技，研究台风</div>
+  <div class="site-description" itemprop="description">Here's my treasure for you.</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
@@ -544,6 +547,35 @@
   
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : true,
+      appId      : 'aqqhw4S409ybGR0bCUt4EcVE-gzGzoHsz',
+      appKey     : '7UVtcy8tdjDL2eQ91UWsagcd',
+      placeholder: "说点啥不？",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
    
 <script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"></script>

@@ -1213,7 +1213,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #66584f;
+  background: #6f59e2;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2610,4 +2610,10 @@ ul.breadcrumb li + li:last-child {
 }
 .busuanzi-value {
   color: #1890ff;
+}
+#comments .vsys {
+  display: none;
+}
+.post-comments-count {
+  display: none;
 }
