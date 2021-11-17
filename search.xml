@@ -21,21 +21,25 @@
 <li>列表2<br>  a 醉后不知天在水<br>  b 满船清梦压星河</li>
 <li>列表3</li>
 </ul>
-<h2 id=""><a href="#" class="headerlink" title="---"></a><code>---</code></h2><br>
+<p><code>--- </code></p>
+<hr>
+<br>
 
 <figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">[hexo的<span class="keyword">next</span>主题个性化教程：打造炫酷网站](https:<span class="regexp">//</span>blog.csdn.net<span class="regexp">/qq_33699981/</span>article<span class="regexp">/details/</span><span class="number">72716951</span>?utm_source=app)</span><br></pre></td></tr></table></figure>
 
 <p><a href="https://blog.csdn.net/qq_33699981/article/details/72716951?utm_source=app">hexo的next主题个性化教程：打造炫酷网站</a></p>
-<p><code>&lt;img src=&quot;https://z3.ax1x.com/2021/11/12/IrMteg.jpg&quot; width=&quot;30%&quot; height=&quot;20%&quot;&gt; </code></p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">&lt;img <span class="attribute">src</span>=<span class="string">&quot;https://z3.ax1x.com/2021/11/12/IrMteg.jpg&quot;</span> <span class="attribute">width</span>=<span class="string">&quot;30%&quot;</span> <span class="attribute">height</span>=<span class="string">&quot;20%&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
+
 <img src="https://z3.ax1x.com/2021/11/12/IrMteg.jpg" width="30%" height="20%">
 
-
+<figure class="highlight asciidoc"><table><tr><td class="code"><pre><span class="line"><span class="strong">*字体是斜线的哦*</span></span><br></pre></td></tr></table></figure>
 <p><em>字体是斜线的哦</em></p>
+<figure class="highlight asciidoc"><table><tr><td class="code"><pre><span class="line"><span class="strong">**字体是加粗的哦**</span></span><br></pre></td></tr></table></figure>
 <p><strong>字体是加粗的哦</strong><br><br/></p>
 <p><code>IPCcountryshp=r&quot;./wholeIPC/wholeIPC.shp&quot;</code></p>
 <figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">data= pd.read_csv(<span class="string">r&quot;./80_20_class0_5.csv&quot;</span>, encoding=<span class="string">&quot;ISO-8859-1&quot;</span>)</span><br><span class="line"></span><br><span class="line">X = np.linspace(<span class="number">120</span>, <span class="number">230</span>, <span class="number">56</span>)</span><br><span class="line">Y = np.linspace(<span class="number">20</span>, -<span class="number">30</span>, <span class="number">26</span>)</span><br><span class="line">X1,Y1=np.meshgrid(X,Y)</span><br><span class="line"></span><br><span class="line">IPCcountryshp=<span class="string">r&quot;./wholeIPC/wholeIPC.shp&quot;</span></span><br><span class="line">IPCmian=<span class="string">r&quot;./country/country.shp&quot;</span></span><br><span class="line">reader_shp=shpreader.Reader(IPCcountryshp)</span><br><span class="line">reader_mian=shpreader.Reader(IPCmian)</span><br></pre></td></tr></table></figure>
 
-<p><code>&gt;我的内容是引用的哦</code></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;</span><span class="bash">我的内容是引用的哦</span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>我的内容是引用的哦</p>
 </blockquote>
@@ -65,6 +69,27 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>有关台风</title>
+    <url>/2021/11/17/%E5%8F%B0%E9%A3%8E%E7%9A%84%E6%95%85%E4%BA%8B/</url>
+    <content><![CDATA[<h1 id="台风视频"><a href="#台风视频" class="headerlink" title="台风视频"></a>台风视频</h1><p><a href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0">杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</a></p>
+<img src="https://z3.ax1x.com/2021/11/17/I5Eo5T.png" width="80%">
+<img src="https://z3.ax1x.com/2021/11/17/I5VrLR.png" width="80%">
+
+<h1 id="台风命名"><a href="#台风命名" class="headerlink" title="台风命名"></a>台风命名</h1><p>台风的得名有故事，<strong>台风的名字</strong>更有故事。每年台风季，人们都能记住几个新名字：“悟空”飞走了，“杜鹃”着陆了，“山竹”滚过来了……这些千奇百怪的名字，是世界气象组织的14个成员国家和地区各自提名10个、经由全体认可的结果，然后按英文首字母排序，循环使用，年复一年。<br><img src="https://z3.ax1x.com/2021/11/17/I5maJf.png" width="50%"><br>使用中的台风中文名称一览表。按从左到右、从上到下的顺序为台风命名。框线加粗的部分，就是2020年的1~30号台风的名字。<em>制图/密林</em><br><br /><br>对于造成严重伤亡和损失的台风，台风委员会经过讨论确认，会将它的名字拎出名单、与这场台风绑定，不再参与循环，也就是新闻常说的“除名”。腾出的空位，则由该台风的命名成员提交新名字补上。</p>
+<blockquote>
+<p>作者：地道风物<br>链接：<a href="https://www.zhihu.com/question/31820631/answer/1407437070">https://www.zhihu.com/question/31820631/answer/1407437070</a><br>来源：知乎</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>搬运</category>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>台风</tag>
+        <tag>科普</tag>
+      </tags>
   </entry>
   <entry>
     <title>田园时代</title>

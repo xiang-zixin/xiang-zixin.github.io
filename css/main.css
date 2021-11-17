@@ -2032,7 +2032,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c36e2b;
+  background: #55bb2f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3342,13 +3342,14 @@ ul.breadcrumb li+li:last-child {
   display: none;
 }
 .back-to-top {
-  right: 60px;
+  right: 20px;
   width: 70px;
   height: 900px;
   top: -900px;
   bottom: unset;
   transition: all 0.5s ease-in-out;
   background: url("/images/scroll.png");
+  opacity: 1;
 }
 .back-to-top > i {
   display: none;
