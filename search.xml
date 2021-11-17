@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Markdown基础使用</title>
+    <url>/2021/11/17/Markdown%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<p><code># 一级标题</code></p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><br />
+
+<p><code>&lt;!-- more --&gt;</code></p>
+<span id="more"></span>
+
+<p><code>## 二级标题</code></p>
+<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><br />
+
+<p><code>### 三级标题</code></p>
+<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><br />
+
+<figure class="highlight asciidoc"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>列表1</span><br><span class="line"><span class="bullet">- </span>列表2</span><br><span class="line"><span class="code">    a 醉后不知天在水</span></span><br><span class="line"><span class="code">    b 满船清梦压星河</span></span><br><span class="line"><span class="bullet">- </span>列表3</span><br></pre></td></tr></table></figure>
+<ul>
+<li>列表1</li>
+<li>列表2<br>  a 醉后不知天在水<br>  b 满船清梦压星河</li>
+<li>列表3</li>
+</ul>
+<h2 id=""><a href="#" class="headerlink" title="---"></a><code>---</code></h2><br>
+
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">[hexo的<span class="keyword">next</span>主题个性化教程：打造炫酷网站](https:<span class="regexp">//</span>blog.csdn.net<span class="regexp">/qq_33699981/</span>article<span class="regexp">/details/</span><span class="number">72716951</span>?utm_source=app)</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://blog.csdn.net/qq_33699981/article/details/72716951?utm_source=app">hexo的next主题个性化教程：打造炫酷网站</a></p>
+<p><code>&lt;img src=&quot;https://z3.ax1x.com/2021/11/12/IrMteg.jpg&quot; width=&quot;30%&quot; height=&quot;20%&quot;&gt; </code></p>
+<img src="https://z3.ax1x.com/2021/11/12/IrMteg.jpg" width="30%" height="20%">
+
+
+<p><em>字体是斜线的哦</em></p>
+<p><strong>字体是加粗的哦</strong><br><br/></p>
+<p><code>IPCcountryshp=r&quot;./wholeIPC/wholeIPC.shp&quot;</code></p>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">data= pd.read_csv(<span class="string">r&quot;./80_20_class0_5.csv&quot;</span>, encoding=<span class="string">&quot;ISO-8859-1&quot;</span>)</span><br><span class="line"></span><br><span class="line">X = np.linspace(<span class="number">120</span>, <span class="number">230</span>, <span class="number">56</span>)</span><br><span class="line">Y = np.linspace(<span class="number">20</span>, -<span class="number">30</span>, <span class="number">26</span>)</span><br><span class="line">X1,Y1=np.meshgrid(X,Y)</span><br><span class="line"></span><br><span class="line">IPCcountryshp=<span class="string">r&quot;./wholeIPC/wholeIPC.shp&quot;</span></span><br><span class="line">IPCmian=<span class="string">r&quot;./country/country.shp&quot;</span></span><br><span class="line">reader_shp=shpreader.Reader(IPCcountryshp)</span><br><span class="line">reader_mian=shpreader.Reader(IPCmian)</span><br></pre></td></tr></table></figure>
+
+<p><code>&gt;我的内容是引用的哦</code></p>
+<blockquote>
+<p>我的内容是引用的哦</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>备忘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2021/11/15/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>

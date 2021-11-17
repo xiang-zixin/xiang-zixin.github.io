@@ -641,7 +641,8 @@
 
     
       <div>
-        <ul class="post-copyright">
+        <!--
+<ul class="post-copyright">
   <li class="post-copyright-author">
     <strong>本文作者： </strong>相子心</li>
   <li class="post-copyright-link">
@@ -651,7 +652,79 @@
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</li>
 </ul>
+-->
+<!-- JS库 clipboard 拷贝内容到粘贴板-->
+<script src="https://cdn.bootcss.com/clipboard.js/2.0.1/clipboard.min.js"></script>
 
+<!-- JS库 sweetalert 显示提示信息-->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<ul class="post-copyright">
+  <!-- 本文标题 
+  <li>
+    <strong>post.copyright.title： </strong>
+    田园时代
+  </li>
+-->
+  <!-- 本文作者 -->
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>
+    相子心
+  </li>
+
+  <!-- 创建时间 
+  <li>
+    <strong>创建时间： </strong>
+    2021年11月16日 - 21时11分
+  </li>
+-->
+  <!-- 修改时间 
+  <li>
+    <strong>修改时间： </strong>
+    2021年11月16日 - 21时11分
+  </li>
+-->
+  <!-- 引用链接 -->
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://xiang-zixin.github.io/2021/11/16/%E7%94%B0%E5%9B%AD%E6%97%B6%E4%BB%A3/" title="田园时代"
+      >http://xiang-zixin.github.io/2021/11/16/%E7%94%B0%E5%9B%AD%E6%97%B6%E4%BB%A3/</a
+    >
+    <span class="copy-path" title="点击复制引用链接"
+      ><i
+        style="cursor: pointer"
+        class="fa fa-clipboard"
+        data-clipboard-text="[相子心's Blog | 田园时代](http://xiang-zixin.github.io/2021/11/16/%E7%94%B0%E5%9B%AD%E6%97%B6%E4%BB%A3/)"
+        aria-label="复制成功"
+      ></i
+    ></span>
+  </li>
+
+  <!-- 版权声明 -->
+  <li class="post-copyright-license">
+    <strong
+      >版权声明：
+    </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+<script>
+  var clipboard = new ClipboardJS(".fa-clipboard");
+  clipboard.on("success", function(target) {
+    var message = document.createElement("div");
+    message.innerHTML =
+      '<i class="fa fa-check-circle message-icon"></i><span class="message-content">' +
+      target.trigger.getAttribute("aria-label") +
+      "</span>";
+    swal({
+      content: message,
+      className: "copy-success-message",
+      timer: 1000,
+      button: false
+    });
+  });
+</script>
       </div>
     
 
@@ -685,6 +758,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2021/11/17/Markdown%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/" rel="prev" title="Markdown基础使用">
+                Markdown基础使用 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -763,7 +840,7 @@
                 
                   <a href="/archives/%20%7C%7C%20archive">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -778,7 +855,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -797,7 +876,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -1076,10 +1159,10 @@
     new Valine({
         el: '#comments' ,
         verify: false,
-        notify: false,
+        notify: true,
         appId: 'aqqhw4S409ybGR0bCUt4EcVE-gzGzoHsz',
         appKey: '7UVtcy8tdjDL2eQ91UWsagcd',
-        placeholder: '说点啥不？',
+        placeholder: '说点啥不？支持Markdown哦O(∩_∩)O',
         avatar:'mm',
         meta:guest,
         pageSize:'10' || 10,
