@@ -611,7 +611,7 @@
     
       <div>
         <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-  <div>Donate comment here</div>
+  <div></div>
   <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
     <span>打赏</span>
   </button>
@@ -728,10 +728,21 @@
   <aside id="sidebar" class="sidebar">
     
     <div class="sidebar-inner">
-      
+
       
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -826,6 +837,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%8D%89%E5%9C%B0"><span class="nav-text">草地</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%88%9B%E4%B8%96%E8%80%85"><span class="nav-text">创世者</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%94%B0%E5%9B%AD"><span class="nav-text">田园</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%98%9F%E7%A9%BA"><span class="nav-text">星空</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%86%B0%E5%B7%9D"><span class="nav-text">冰川</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%A2%A8%E4%BA%91"><span class="nav-text">墨云</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%B2%92%E5%AD%90%E4%BA%91"><span class="nav-text">粒子云</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B0%8F%E5%A5%B3%E5%AD%A9"><span class="nav-text">小女孩</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
