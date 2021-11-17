@@ -1,48 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2021/11/15/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Markdown基础使用</title>
     <url>/2021/11/17/Markdown%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<p><code># 一级标题</code></p>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><br />
-
-<p><code>&lt;!-- more --&gt;</code></p>
+    <content><![CDATA[<figure class="highlight vala"><table><tr><td class="code"><pre><span class="line"><span class="meta"># 一级标题</span></span><br></pre></td></tr></table></figure>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><hr>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- more --&gt;</span></span><br></pre></td></tr></table></figure>
+<p>阅读全文</p>
 <span id="more"></span>
-
-<p><code>## 二级标题</code></p>
-<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><br />
-
-<p><code>### 三级标题</code></p>
-<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><br />
-
+<hr>
+<figure class="highlight clean"><table><tr><td class="code"><pre><span class="line">## 二级标题</span><br></pre></td></tr></table></figure>
+<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><hr>
+<figure class="highlight clean"><table><tr><td class="code"><pre><span class="line">### 三级标题</span><br></pre></td></tr></table></figure>
+<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><hr>
 <figure class="highlight asciidoc"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>列表1</span><br><span class="line"><span class="bullet">- </span>列表2</span><br><span class="line"><span class="code">    a 醉后不知天在水</span></span><br><span class="line"><span class="code">    b 满船清梦压星河</span></span><br><span class="line"><span class="bullet">- </span>列表3</span><br></pre></td></tr></table></figure>
 <ul>
 <li>列表1</li>
 <li>列表2<br>  a 醉后不知天在水<br>  b 满船清梦压星河</li>
 <li>列表3</li>
 </ul>
-<p><code>--- </code></p>
 <hr>
-<br>
-
+<figure class="highlight ada"><table><tr><td class="code"><pre><span class="line"><span class="comment">---分割线效果</span></span><br></pre></td></tr></table></figure>
+<hr>
 <figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">[hexo的<span class="keyword">next</span>主题个性化教程：打造炫酷网站](https:<span class="regexp">//</span>blog.csdn.net<span class="regexp">/qq_33699981/</span>article<span class="regexp">/details/</span><span class="number">72716951</span>?utm_source=app)</span><br></pre></td></tr></table></figure>
 
 <p><a href="https://blog.csdn.net/qq_33699981/article/details/72716951?utm_source=app">hexo的next主题个性化教程：打造炫酷网站</a></p>
+<hr>
 <figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">&lt;img <span class="attribute">src</span>=<span class="string">&quot;https://z3.ax1x.com/2021/11/12/IrMteg.jpg&quot;</span> <span class="attribute">width</span>=<span class="string">&quot;30%&quot;</span> <span class="attribute">height</span>=<span class="string">&quot;20%&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
 
 <img src="https://z3.ax1x.com/2021/11/12/IrMteg.jpg" width="30%" height="20%">
 
+<hr>
 <figure class="highlight asciidoc"><table><tr><td class="code"><pre><span class="line"><span class="strong">*字体是斜线的哦*</span></span><br></pre></td></tr></table></figure>
 <p><em>字体是斜线的哦</em></p>
+<hr>
 <figure class="highlight asciidoc"><table><tr><td class="code"><pre><span class="line"><span class="strong">**字体是加粗的哦**</span></span><br></pre></td></tr></table></figure>
-<p><strong>字体是加粗的哦</strong><br><br/></p>
-<p><code>IPCcountryshp=r&quot;./wholeIPC/wholeIPC.shp&quot;</code></p>
-<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">data= pd.read_csv(<span class="string">r&quot;./80_20_class0_5.csv&quot;</span>, encoding=<span class="string">&quot;ISO-8859-1&quot;</span>)</span><br><span class="line"></span><br><span class="line">X = np.linspace(<span class="number">120</span>, <span class="number">230</span>, <span class="number">56</span>)</span><br><span class="line">Y = np.linspace(<span class="number">20</span>, -<span class="number">30</span>, <span class="number">26</span>)</span><br><span class="line">X1,Y1=np.meshgrid(X,Y)</span><br><span class="line"></span><br><span class="line">IPCcountryshp=<span class="string">r&quot;./wholeIPC/wholeIPC.shp&quot;</span></span><br><span class="line">IPCmian=<span class="string">r&quot;./country/country.shp&quot;</span></span><br><span class="line">reader_shp=shpreader.Reader(IPCcountryshp)</span><br><span class="line">reader_mian=shpreader.Reader(IPCmian)</span><br></pre></td></tr></table></figure>
-
+<p><strong>字体是加粗的哦</strong></p>
+<hr>
+<p><code>IPCcountryshp=r&quot;./wholeIPC/wholeIPC.shp&quot;</code>单行代码效果</p>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">data= pd.read_csv(<span class="string">r&quot;./80_20_class0_5.csv&quot;</span>, encoding=<span class="string">&quot;ISO-8859-1&quot;</span>)</span><br><span class="line"></span><br><span class="line">X = np.linspace(<span class="number">120</span>, <span class="number">230</span>, <span class="number">56</span>)</span><br><span class="line">Y = np.linspace(<span class="number">20</span>, -<span class="number">30</span>, <span class="number">26</span>)</span><br><span class="line">X1,Y1=np.meshgrid(X,Y)</span><br></pre></td></tr></table></figure>
+<hr>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;</span><span class="bash">我的内容是引用的哦</span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>我的内容是引用的哦</p>
 </blockquote>
+<hr>
 <figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">&lt;a <span class="attribute">href</span>=<span class="string">&quot;https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&amp;seid=18161649055479728259&amp;spm_id_from=333.337.0.0&quot;</span> <span class="attribute">class</span>=<span class="string">&quot;LinkCard&quot;</span>&gt;杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》&lt;/a&gt;</span><br></pre></td></tr></table></figure>
 <p><a href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0" class="LinkCard">杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</a></p>
 ]]></content>
@@ -56,9 +76,8 @@
   </entry>
   <entry>
     <title>有关台风</title>
-    <url>/2021/11/17/%E5%8F%B0%E9%A3%8E%E7%9A%84%E6%95%85%E4%BA%8B/</url>
-    <content><![CDATA[<h1 id="台风视频"><a href="#台风视频" class="headerlink" title="台风视频"></a>台风视频</h1><p><a href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0">杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</a></p>
-<p><a href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0" class="LinkCard">杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</a></p>
+    <url>/2021/11/17/%E6%9C%89%E5%85%B3%E5%8F%B0%E9%A3%8E/</url>
+    <content><![CDATA[<h1 id="台风视频"><a href="#台风视频" class="headerlink" title="台风视频"></a>台风视频</h1><p><a href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0" class="LinkCard">杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</a></p>
 <img src="https://z3.ax1x.com/2021/11/17/I5Eo5T.png" width="80%">
 <img src="https://z3.ax1x.com/2021/11/17/I5VrLR.png" width="80%">
 
@@ -189,23 +208,5 @@
         <tag>科幻</tag>
         <tag>爱情</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2021/11/15/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
 </search>
