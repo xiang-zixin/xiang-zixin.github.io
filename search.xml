@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2021/11/15/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>博文写作(Markdown基础使用)</title>
     <url>/2021/11/17/Markdown%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<h1 id="可供参考网站"><a href="#可供参考网站" class="headerlink" title="可供参考网站"></a>可供参考网站</h1><p><a href="http://markdown.p2hp.com/tools/" class="LinkCard">Markdown中文网</a></p>
@@ -79,11 +61,13 @@
   <entry>
     <title>有关台风</title>
     <url>/2021/11/17/%E6%9C%89%E5%85%B3%E5%8F%B0%E9%A3%8E/</url>
-    <content><![CDATA[<h1 id="台风视频"><a href="#台风视频" class="headerlink" title="台风视频"></a>台风视频</h1><p><a href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0" class="LinkCard">杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</a></p>
-<img src="https://z3.ax1x.com/2021/11/17/I5Eo5T.png" width="80%">
-<img src="https://z3.ax1x.com/2021/11/17/I5VrLR.png" width="80%">
+    <content><![CDATA[<h1 id="台风百科"><a href="#台风百科" class="headerlink" title="台风百科"></a>台风百科</h1><p>维基百科的介绍，十分详细全面。<br><a href="https://chinois.jinzhao.wiki/wiki/%E7%86%B1%E5%B8%B6%E6%B0%A3%E6%97%8B" class="LinkCard">热带气旋</a></p>
+<h1 id="台风视频"><a href="#台风视频" class="headerlink" title="台风视频"></a>台风视频</h1><p>先推荐一位b站的up主<a href="https://space.bilibili.com/17466521?from=search&seid=498129991493630499&spm_id_from=333.337.0.0">风羽酱-sdk</a>的视频，当然作为一名追风者，他还有很多类似的优质的“台风的故事”视频，让我们一起感受一下台风之美：<br><a href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0" class="LinkCard">杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</a><br>两图均为视频中所截，为拥有完美风眼的两个超强台风。<br><img src="https://z3.ax1x.com/2021/11/17/I5Eo5T.png" width="80%"><br><img src="https://z3.ax1x.com/2021/11/17/I5VrLR.png" width="80%"></p>
+<h1 id="台风命名"><a href="#台风命名" class="headerlink" title="台风命名"></a>台风命名</h1><p>台风的得名有故事，<strong>台风的名字</strong>更有故事。每年台风季，人们都能记住几个新名字：“悟空”飞走了，“杜鹃”着陆了，“山竹”滚过来了……这些千奇百怪的名字，是世界气象组织的14个成员国家和地区各自提名10个、经由全体认可的结果，然后按英文首字母排序，循环使用，年复一年。<br><img src="https://z3.ax1x.com/2021/11/17/I5maJf.png" width="50%"></p>
+<center> 使用中的台风中文名称一览表。按从左到右、从上到下的顺序为台风命名。框线加粗的部分，就是2020年的1~30号台风的名字。制图/密林 </center>
+<br />
+对于造成严重伤亡和损失的台风，台风委员会经过讨论确认，会将它的名字拎出名单、与这场台风绑定，不再参与循环，也就是新闻常说的“除名”。腾出的空位，则由该台风的命名成员提交新名字补上。<br /><br />
 
-<h1 id="台风命名"><a href="#台风命名" class="headerlink" title="台风命名"></a>台风命名</h1><p>台风的得名有故事，<strong>台风的名字</strong>更有故事。每年台风季，人们都能记住几个新名字：“悟空”飞走了，“杜鹃”着陆了，“山竹”滚过来了……这些千奇百怪的名字，是世界气象组织的14个成员国家和地区各自提名10个、经由全体认可的结果，然后按英文首字母排序，循环使用，年复一年。<br><img src="https://z3.ax1x.com/2021/11/17/I5maJf.png" width="50%"><br>使用中的台风中文名称一览表。按从左到右、从上到下的顺序为台风命名。框线加粗的部分，就是2020年的1~30号台风的名字。<em>制图/密林</em><br><br /><br>对于造成严重伤亡和损失的台风，台风委员会经过讨论确认，会将它的名字拎出名单、与这场台风绑定，不再参与循环，也就是新闻常说的“除名”。腾出的空位，则由该台风的命名成员提交新名字补上。</p>
 <blockquote>
 <p>作者：地道风物<br>链接：<a href="https://www.zhihu.com/question/31820631/answer/1407437070">https://www.zhihu.com/question/31820631/answer/1407437070</a><br>来源：知乎</p>
 </blockquote>
@@ -96,6 +80,24 @@
         <tag>台风</tag>
         <tag>科普</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/11/15/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>田园时代</title>
