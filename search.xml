@@ -8,9 +8,12 @@
 <p><a href="http://yearito.cn/posts/hexo-writing-skills.html" class="LinkCard">Hexo 搭建个人博客系列：写作技巧篇</a></p>
 <h1 id="阅读全文"><a href="#阅读全文" class="headerlink" title="阅读全文"></a>阅读全文</h1><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- more --&gt;</span></span><br></pre></td></tr></table></figure>
 
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><figure class="highlight vala"><table><tr><td class="code"><pre><span class="line"><span class="meta"># 一级标题</span></span><br></pre></td></tr></table></figure>
 
-<figure class="highlight vala"><table><tr><td class="code"><pre><span class="line"><span class="meta"># 一级标题</span></span><br></pre></td></tr></table></figure>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><span id="more"></span>
+
+
+
+<span id="more"></span>
 
 <h1 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h1><figure class="highlight clean"><table><tr><td class="code"><pre><span class="line">## 二级标题</span><br></pre></td></tr></table></figure>
 
