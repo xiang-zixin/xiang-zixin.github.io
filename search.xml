@@ -53,9 +53,6 @@
 <h1 id="类知乎卡片"><a href="#类知乎卡片" class="headerlink" title="类知乎卡片"></a>类知乎卡片</h1><figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">&lt;a <span class="attribute">href</span>=<span class="string">&quot;https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&amp;seid=18161649055479728259&amp;spm_id_from=333.337.0.0&quot;</span> <span class="attribute">class</span>=<span class="string">&quot;LinkCard&quot;</span>&gt;杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》&lt;/a&gt;</span><br></pre></td></tr></table></figure>
 <p><a href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0" class="LinkCard">杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</a></p>
 ]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
       <tags>
         <tag>Markdown</tag>
         <tag>备忘</tag>
@@ -75,10 +72,6 @@
 <p>作者：地道风物<br>链接：<a href="https://www.zhihu.com/question/31820631/answer/1407437070">https://www.zhihu.com/question/31820631/answer/1407437070</a><br>来源：知乎</p>
 </blockquote>
 ]]></content>
-      <categories>
-        <category>搬运</category>
-        <category>随笔</category>
-      </categories>
       <tags>
         <tag>台风</tag>
         <tag>科普</tag>
@@ -207,9 +200,6 @@
 <p>同样是一个夏日的午后时光，他坐在芒草丛生的草地上，看着小女孩的身影。五颜六色的衣裳，五颜六色的风筝，一起飘荡在这片无垠的绿色中，是两朵点亮了草地的花朵。</p>
 <p>他会心一笑。</p>
 ]]></content>
-      <categories>
-        <category>小说</category>
-      </categories>
       <tags>
         <tag>致敬</tag>
         <tag>科幻</tag>
@@ -265,9 +255,6 @@
 <h2 id="从远程库克隆"><a href="#从远程库克隆" class="headerlink" title="从远程库克隆"></a>从远程库克隆</h2><p>要克隆一个仓库，首先必须知道仓库的地址，然后使用<code>git clone</code>命令克隆。</p>
 <p>Git支持多种协议，包括<code>https</code>，但<code>ssh</code>协议速度最快。</p>
 ]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
       <tags>
         <tag>备忘</tag>
         <tag>git</tag>
