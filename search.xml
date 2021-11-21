@@ -59,22 +59,59 @@
       </tags>
   </entry>
   <entry>
-    <title>有关台风</title>
-    <url>/2021/11/17/%E6%9C%89%E5%85%B3%E5%8F%B0%E9%A3%8E/</url>
-    <content><![CDATA[<h1 id="台风百科"><a href="#台风百科" class="headerlink" title="台风百科"></a>台风百科</h1><p>维基百科的介绍，十分详细全面。<br><a href="https://chinois.jinzhao.wiki/wiki/%E7%86%B1%E5%B8%B6%E6%B0%A3%E6%97%8B" class="LinkCard">热带气旋</a></p>
-<h1 id="台风视频"><a href="#台风视频" class="headerlink" title="台风视频"></a>台风视频</h1><p>先推荐一位b站的up主<a href="https://space.bilibili.com/17466521?from=search&seid=498129991493630499&spm_id_from=333.337.0.0">风羽酱-sdk</a>的视频，当然作为一名追风者，他还有很多类似的优质的“台风的故事”视频，让我们一起感受一下台风之美：<br><a href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0" class="LinkCard">杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</a><br>两图均为视频中所截，为拥有完美风眼的两个超强台风。<br><img src="https://z3.ax1x.com/2021/11/17/I5Eo5T.png" width="80%"><br><img src="https://z3.ax1x.com/2021/11/17/I5VrLR.png" width="80%"></p>
-<h1 id="台风命名"><a href="#台风命名" class="headerlink" title="台风命名"></a>台风命名</h1><p>台风的得名有故事，<strong>台风的名字</strong>更有故事。每年台风季，人们都能记住几个新名字：“悟空”飞走了，“杜鹃”着陆了，“山竹”滚过来了……这些千奇百怪的名字，是世界气象组织的14个成员国家和地区各自提名10个、经由全体认可的结果，然后按英文首字母排序，循环使用，年复一年。<br><img src="https://z3.ax1x.com/2021/11/17/I5maJf.png" width="50%"></p>
-<center> 使用中的台风中文名称一览表。按从左到右、从上到下的顺序为台风命名。框线加粗的部分，就是2020年的1~30号台风的名字。制图/密林 </center>
-<br />
-对于造成严重伤亡和损失的台风，台风委员会经过讨论确认，会将它的名字拎出名单、与这场台风绑定，不再参与循环，也就是新闻常说的“除名”。腾出的空位，则由该台风的命名成员提交新名字补上。<br /><br />
-
-<blockquote>
-<p>作者：地道风物<br>链接：<a href="https://www.zhihu.com/question/31820631/answer/1407437070">https://www.zhihu.com/question/31820631/answer/1407437070</a><br>来源：知乎</p>
-</blockquote>
+    <title>git与github入门命令整理</title>
+    <url>/2021/11/20/git%E4%B8%8Egithub%E5%85%A5%E9%97%A8%E5%91%BD%E4%BB%A4%E6%95%B4%E7%90%86/</url>
+    <content><![CDATA[<h1 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h1><p>初始化一个Git仓库，使用<code>git init</code>命令。</p>
+<p>添加文件到Git仓库，分两步：</p>
+<ol>
+<li>使用命令<code>git add &lt;file&gt;</code>，注意，可反复多次使用，添加多个文件；</li>
+<li>使用命令<code>git commit -m &lt;message&gt;</code>，完成。</li>
+</ol>
+<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/896827951938304" class="LinkCard">创建版本库</a></p>
+<h1 id="时光机穿梭"><a href="#时光机穿梭" class="headerlink" title="时光机穿梭"></a>时光机穿梭</h1><ul>
+<li>要随时掌握工作区的状态，使用<code>git status</code>命令。</li>
+<li>如果<code>git status</code>告诉你有文件被修改过，用<code>git diff</code>可以查看修改内容。</li>
+</ul>
+<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/896954074659008" class="LinkCard">时光机穿梭</a></p>
+<h2 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h2><ul>
+<li><code>HEAD</code>指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令<code>git reset --hard commit_id</code>。</li>
+<li>穿梭前，用<code>git log</code>可以查看提交历史，以便确定要回退到哪个版本。</li>
+<li>要重返未来，用<code>git reflog</code>查看命令历史，以便确定要回到未来的哪个版本。</li>
+</ul>
+<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/897013573512192" class="LinkCard">版本回退</a></p>
+<h2 id="工作区和暂存区"><a href="#工作区和暂存区" class="headerlink" title="工作区和暂存区"></a>工作区和暂存区</h2><p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/897271968352576" class="LinkCard">工作区和暂存区</a></p>
+<h2 id="管理修改"><a href="#管理修改" class="headerlink" title="管理修改"></a>管理修改</h2><p>每次修改，如果不用<code>git add</code>到暂存区，那就不会加入到<code>commit</code>中。</p>
+<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/897884457270432" class="LinkCard">管理修改</a></p>
+<h2 id="撤销修改"><a href="#撤销修改" class="headerlink" title="撤销修改"></a>撤销修改</h2><ul>
+<li><p>场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令<code>git checkout -- file</code>。</p>
+</li>
+<li><p>场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令<code>git reset HEAD &lt;file&gt;</code>，就回到了场景1，第二步按场景1操作。</p>
+</li>
+<li><p>场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。</p>
+</li>
+</ul>
+<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/897889638509536" class="LinkCard">撤销修改</a></p>
+<h2 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h2><p>命令<code>git rm</code>用于删除一个文件。</p>
+<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/900002180232448" class="LinkCard">删除文件</a></p>
+<h1 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h1><p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416" class="LinkCard">远程仓库</a></p>
+<h2 id="添加远程库"><a href="#添加远程库" class="headerlink" title="添加远程库"></a>添加远程库</h2><ul>
+<li><p>要关联一个远程库，使用命令<code>git remote add origin git@server-name:path/repo-name.git</code>；</p>
+</li>
+<li><p>关联一个远程库时必须给远程库指定一个名字，<code>origin</code>是默认习惯命名；</p>
+</li>
+<li><p>关联后，使用命令<code>git push -u origin master</code>第一次推送master分支的所有内容；</p>
+</li>
+<li><p>此后，每次本地提交后，只要有必要，就可以使用命令<code>git push origin master</code>推送最新修改；</p>
+</li>
+</ul>
+<h2 id="从远程库克隆"><a href="#从远程库克隆" class="headerlink" title="从远程库克隆"></a>从远程库克隆</h2><p>要克隆一个仓库，首先必须知道仓库的地址，然后使用<code>git clone</code>命令克隆。</p>
+<p>Git支持多种协议，包括<code>https</code>，但<code>ssh</code>协议速度最快。</p>
 ]]></content>
       <tags>
-        <tag>台风</tag>
-        <tag>科普</tag>
+        <tag>备忘</tag>
+        <tag>git</tag>
+        <tag>github</tag>
+        <tag>搬运</tag>
       </tags>
   </entry>
   <entry>
@@ -94,6 +131,35 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>zotero入门</title>
+    <url>/2021/11/21/zotero%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<p>我其实本来使用的是endnoteX9，但是经过b站一群人的安利，发现Zotero更好用一些，因为它是开源的，所以集合了各种plugs之后简直强无敌（甚至做笔记还支持markdown，这就很舒服了）。</p>
+<p>先挂一个zotero官网的帮助文档在这：</p>
+<p><a href="https://www.zotero.org/support/" class="LinkCard">Zotero帮助文档</a></p>
+<p>下面先放一些个人学习中发现的干货。</p>
+<h2 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h2><p>最开始主要按照</p>
+<p><a href="https://www.bilibili.com/video/BV1fT4y1R776" class="LinkCard">Zotero Zotero：文献管理软件</a></p>
+<p>来配置学习，但里面对zotfile+坚果云同步的介绍让我很晕。</p>
+<h2 id="进阶"><a href="#进阶" class="headerlink" title="进阶"></a>进阶</h2><p>后来惊喜地发现一枚知乎的宝藏博主@<a href="https://www.zhihu.com/people/specter119">滏阳河边捉蚯蚓</a>写过（整理过）的专栏<a href="https://www.zhihu.com/column/reftools">RefTools</a>,让我后悔没早点看到。我在构建自己的zotero环境时，主要参考了这样几篇：</p>
+<p><a href="https://zhuanlan.zhihu.com/p/31453719" class="LinkCard">Zotero 跨平台同步附件的实现</a></p>
+<h3 id="完善zotero的小bug："><a href="#完善zotero的小bug：" class="headerlink" title="完善zotero的小bug："></a>完善zotero的小bug：</h3><h4 id="为-Zotero-删除无条目对应的文件链接附件"><a href="#为-Zotero-删除无条目对应的文件链接附件" class="headerlink" title="为 Zotero 删除无条目对应的文件链接附件"></a>为 Zotero 删除无条目对应的文件链接附件</h4><p><a href="https://zhuanlan.zhihu.com/p/41297136" class="LinkCard">为 Zotero 删除无条目对应的文件链接附件</a></p>
+<p>以下为上文中代码，贴在这里作为个人备忘，详情请见原文,下同：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#!/usr/bin/env python</span><br><span class="line"># coding: utf-8</span><br><span class="line"></span><br><span class="line">from __future__ import print_function</span><br><span class="line"></span><br><span class="line">import configparser</span><br><span class="line">import re</span><br><span class="line">import shutil</span><br><span class="line">import sqlite3</span><br><span class="line">import sys</span><br><span class="line">from imp import reload</span><br><span class="line"></span><br><span class="line">try:</span><br><span class="line">    from pathlib import Path</span><br><span class="line">except ImportError:</span><br><span class="line">    from pathlib2 import Path</span><br><span class="line"></span><br><span class="line">if sys.version_info.major == 2:</span><br><span class="line">    reload(sys)</span><br><span class="line">    sys.setdefaultencoding(&#x27;UTF8&#x27;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def get_zotfile_dest_and_zotero_data_dirs():</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    Get the Zotero data dir and the Zotfile destination dir in PosixPath type</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    profile_dirs = &#123;</span><br><span class="line">        &#x27;darwin&#x27;: Path.home() / &#x27;Library/Application Support/Zotero&#x27;,</span><br><span class="line">        &#x27;linux&#x27;: Path.home() / &#x27;.zotero/zotero&#x27;,</span><br><span class="line">        &#x27;linux2&#x27;: Path.home() / &#x27;.zotero/zotero&#x27;,</span><br><span class="line">        &#x27;win32&#x27;: Path.home() / &#x27;AppData/Roaming/Zotero/Zotero&#x27;</span><br><span class="line">    &#125;</span><br><span class="line">    profile_dir = profile_dirs[sys.platform]</span><br><span class="line"></span><br><span class="line">    config = configparser.ConfigParser()</span><br><span class="line">    config.read(&#x27;&#123;&#125;&#x27;.format(profile_dir / &#x27;profiles.ini&#x27;))</span><br><span class="line">    configs_loc = profile_dir / config[&#x27;Profile0&#x27;][&#x27;Path&#x27;] / &#x27;prefs.js&#x27;</span><br><span class="line">    configs = configs_loc.read_text()</span><br><span class="line"></span><br><span class="line">    zotero_data_pat = re.compile(</span><br><span class="line">        r&#x27;user_pref\(&quot;extensions.zotero.dataDir&quot;,\ &quot;(?P&lt;zotero_data&gt;.+)&quot;\);&#x27;)</span><br><span class="line">    zotero_data_dir = Path(zotero_data_pat.search(</span><br><span class="line">        configs).group(&#x27;zotero_data&#x27;))</span><br><span class="line">    zotfile_dest_pat = re.compile(</span><br><span class="line">        r&#x27;user_pref\(&quot;extensions.zotfile.dest_dir&quot;,\ &quot;(?P&lt;zotfile_dest&gt;.+)&quot;\);&#x27;)</span><br><span class="line">    zotfile_dest_dir = Path(</span><br><span class="line">        zotfile_dest_pat.search(configs).group(&#x27;zotfile_dest&#x27;))</span><br><span class="line"></span><br><span class="line">    return zotero_data_dir, zotfile_dest_dir</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def get_unmaintained_files(zotero_data_dir,</span><br><span class="line">                           zotfile_dest_dir,</span><br><span class="line">                           case_sensitive=&#x27;auto&#x27;):</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    Get a list of atthchment in PosixPath type that unmaintained in the Zotero</span><br><span class="line">    Args:</span><br><span class="line">        zotero_data_dir(PosixPath): Zotero data dir</span><br><span class="line">        zotfile_dest_dir(PosixPath): Zotfile destination dir</span><br><span class="line">        case_sensitive(bool or str): wether the os is case sensitive, </span><br><span class="line">                                     default set linux as True, and rest as False</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    attachments_local = set(p.as_posix() for p in zotfile_dest_dir.glob(&#x27;**/*&#x27;)</span><br><span class="line">                            if p.is_file() and p.name[0] != &#x27;.&#x27;)</span><br><span class="line"></span><br><span class="line">    con = sqlite3.connect(&#x27;&#123;&#125;&#x27;.format(zotero_data_dir / &#x27;zotero.sqlite&#x27;))</span><br><span class="line">    with con:</span><br><span class="line">        cur = con.cursor()</span><br><span class="line">        cur.execute(&#x27;SELECT path FROM itemAttachments WHERE linkMode = 2&#x27;)</span><br><span class="line">        attachments_zotero = set([</span><br><span class="line">            p.as_posix() for p in [</span><br><span class="line">                zotfile_dest_dir / p[0].replace(&#x27;attachments:&#x27;, &#x27;&#x27;, 1)</span><br><span class="line">                for p in cur.fetchall()</span><br><span class="line">            ]</span><br><span class="line">        ])</span><br><span class="line"></span><br><span class="line">    if sys.platform == &#x27;darwin&#x27;:</span><br><span class="line">        import unicodedata</span><br><span class="line">        attachments_zotero = set(</span><br><span class="line">            list(attachments_zotero) +</span><br><span class="line">            [unicodedata.normalize(&#x27;NFD&#x27;, p) for p in attachments_zotero])</span><br><span class="line">    if case_sensitive == &#x27;auto&#x27;:</span><br><span class="line">        case_sensitive = &#123;</span><br><span class="line">            &#x27;darwin&#x27;: False,</span><br><span class="line">            &#x27;linux&#x27;: True,</span><br><span class="line">            &#x27;linux2&#x27;: True,</span><br><span class="line">            &#x27;win32&#x27;: False</span><br><span class="line">        &#125;[sys.platform]</span><br><span class="line">    if not case_sensitive:</span><br><span class="line">        attachments_local = set([p.lower() for p in attachments_local])</span><br><span class="line">        attachments_zotero = set([p.lower() for p in attachments_zotero])</span><br><span class="line">    attachments_to_remove = attachments_local - attachments_zotero</span><br><span class="line"></span><br><span class="line">    return [Path(p) for p in attachments_to_remove]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def remove_unmaintained(attachments_to_remove):</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    Remove the unmaintained files in PosixPath type, and clear empty dirs</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    [p.unlink() for p in attachments_to_remove]</span><br><span class="line">    empty_dirs = [</span><br><span class="line">        p for p in zotfile_dest_dir.glob(&#x27;**/*&#x27;) if (not p.is_file()) and (</span><br><span class="line">            not len([f for f in list(p.iterdir()) if f.name[0] != &#x27;.&#x27;]))</span><br><span class="line">    ]</span><br><span class="line">    [shutil.rmtree(p.as_posix(), ignore_errors=True) for p in empty_dirs]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    zotero_data_dir, zotfile_dest_dir = get_zotfile_dest_and_zotero_data_dirs()</span><br><span class="line">    attachments_to_remove = get_unmaintained_files(zotero_data_dir,</span><br><span class="line">                                                   zotfile_dest_dir)</span><br><span class="line"></span><br><span class="line">    try:</span><br><span class="line">        import click</span><br><span class="line">        print(&#x27;The following files are no longer managed by Zotero:&#x27;)</span><br><span class="line">        print(&#x27;\n&#x27;.join([&#x27;  &#123;&#125;&#x27;.format(p) for p in attachments_to_remove]))</span><br><span class="line">        if click.confirm(&#x27;Do you want remove them?&#x27;, default=True):</span><br><span class="line">            remove_unmaintained(attachments_to_remove)</span><br><span class="line">    except ImportError:</span><br><span class="line">        print(</span><br><span class="line">            &#x27;The following files no longer managed by Zotero will be removed:&#x27;)</span><br><span class="line">        print(&#x27;\n&#x27;.join([&#x27;  &#123;&#125;&#x27;.format(p) for p in attachments_to_remove]))</span><br><span class="line">        remove_unmaintained(attachments_to_remove)</span><br></pre></td></tr></table></figure>
+
+<h4 id="为-Zotero-删除-storage-中的“空”文件夹"><a href="#为-Zotero-删除-storage-中的“空”文件夹" class="headerlink" title="为 Zotero 删除 storage 中的“空”文件夹"></a>为 Zotero 删除 storage 中的“空”文件夹</h4><p><a href="https://zhuanlan.zhihu.com/p/41168160" class="LinkCard">为 Zotero 删除 storage 中的“空”文件夹</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#!/usr/bin/env python</span><br><span class="line"># coding: utf-8</span><br><span class="line"></span><br><span class="line">from __future__ import print_function</span><br><span class="line"></span><br><span class="line">import configparser</span><br><span class="line">import re</span><br><span class="line">import shutil</span><br><span class="line">import sys</span><br><span class="line"></span><br><span class="line">try:</span><br><span class="line">    from pathlib import Path</span><br><span class="line">except ImportError:</span><br><span class="line">    from pathlib2 import Path</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def get_zotero_storage_dir():</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    Get the Zotero storage dir and in PosixPath type</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    profile_dirs = &#123;</span><br><span class="line">        &#x27;darwin&#x27;: Path.home() / &#x27;Library/Application Support/Zotero&#x27;,</span><br><span class="line">        &#x27;linux&#x27;: Path.home() / &#x27;.zotero/zotero&#x27;,</span><br><span class="line">        &#x27;linux2&#x27;: Path.home() / &#x27;.zotero/zotero&#x27;,</span><br><span class="line">        &#x27;win32&#x27;: Path.home() / &#x27;AppData/Roaming/Zotero/Zotero&#x27;</span><br><span class="line">    &#125;</span><br><span class="line">    profile_dir = profile_dirs[sys.platform]</span><br><span class="line"></span><br><span class="line">    config = configparser.ConfigParser()</span><br><span class="line">    config.read(&#x27;&#123;&#125;&#x27;.format(profile_dir / &#x27;profiles.ini&#x27;))</span><br><span class="line">    configs_loc = profile_dir / config[&#x27;Profile0&#x27;][&#x27;Path&#x27;] / &#x27;prefs.js&#x27;</span><br><span class="line">    configs = configs_loc.read_text()</span><br><span class="line"></span><br><span class="line">    zotero_data_pat = re.compile(</span><br><span class="line">        r&#x27;user_pref\(&quot;extensions.zotero.dataDir&quot;,\ &quot;(?P&lt;zotero_data&gt;.+)&quot;\);&#x27;)</span><br><span class="line">    zotero_data_dir = Path(zotero_data_pat.search(configs).group(&#x27;zotero_data&#x27;))</span><br><span class="line">    storage_dir = zotero_data_dir / &#x27;storage&#x27;</span><br><span class="line">    return storage_dir</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def get_empty_folders(zotero_storage_dir):</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    Get a list of empty dir in string type.</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    return [</span><br><span class="line">        p.as_posix() for p in zotero_storage_dir.iterdir()</span><br><span class="line">        if (not p.is_file()) and (</span><br><span class="line">            not len([f for f in list(p.iterdir()) if f.name[0] != &#x27;.&#x27;]))</span><br><span class="line">    ]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    zotero_storage_dir = get_zotero_storage_dir()</span><br><span class="line">    dirs_to_remove = get_empty_folders(zotero_storage_dir)</span><br><span class="line">    try:</span><br><span class="line">        import click</span><br><span class="line">        print(&#x27;The following folders contain no attachments:&#x27;)</span><br><span class="line">        print(&#x27;\n  &#x27;.join([&#x27;&#x27;] + dirs_to_remove))</span><br><span class="line">        if click.confirm(&#x27;Do you want remove them?&#x27;, default=True):</span><br><span class="line">            [shutil.rmtree(p, ignore_errors=True) for p in dirs_to_remove]</span><br><span class="line">    except ImportError:</span><br><span class="line">        print(</span><br><span class="line">            &#x27;The following folders containing no attachments will be removed:&#x27;)</span><br><span class="line">        print(&#x27;\n  &#x27;.join([&#x27;&#x27;] + dirs_to_remove))</span><br><span class="line">        [shutil.rmtree(p, ignore_errors=True) for p in dirs_to_remove]</span><br></pre></td></tr></table></figure>
+
+<h4 id="批量删除（合并）重复文献"><a href="#批量删除（合并）重复文献" class="headerlink" title="批量删除（合并）重复文献"></a>批量删除（合并）重复文献</h4><p>还有一个是去重的，个人感觉不太用的上，但还是挂在这里，这来自另外一位知乎博主@<a href="https://www.zhihu.com/people/johnmy-89">johnmy</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/352324486" class="LinkCard">为 Zotero 删除 storage 中的“空”文件夹</a></p>
+<p>他还有写的解决上述两个bug的脚本，而且不需要其他软件，但是本人测试后好像有点小问题（具体是什么忘了），所以采用了上述方法，也并不麻烦。</p>
+<h2 id="EndNote-gt-Zotero"><a href="#EndNote-gt-Zotero" class="headerlink" title="EndNote-&gt;Zotero"></a>EndNote-&gt;Zotero</h2><p><a href="https://www.zotero.org/support/zh/kb/importing_records_from_endnote" class="LinkCard">如何导入EndNote的记录?</a></p>
+]]></content>
+      <tags>
+        <tag>备忘</tag>
+        <tag>zotero</tag>
+      </tags>
   </entry>
   <entry>
     <title>田园时代</title>
@@ -207,88 +273,22 @@
       </tags>
   </entry>
   <entry>
-    <title>git与github入门命令整理</title>
-    <url>/2021/11/20/git%E4%B8%8Egithub%E5%85%A5%E9%97%A8%E5%91%BD%E4%BB%A4%E6%95%B4%E7%90%86/</url>
-    <content><![CDATA[<h1 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h1><p>初始化一个Git仓库，使用<code>git init</code>命令。</p>
-<p>添加文件到Git仓库，分两步：</p>
-<ol>
-<li>使用命令<code>git add &lt;file&gt;</code>，注意，可反复多次使用，添加多个文件；</li>
-<li>使用命令<code>git commit -m &lt;message&gt;</code>，完成。</li>
-</ol>
-<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/896827951938304" class="LinkCard">创建版本库</a></p>
-<h1 id="时光机穿梭"><a href="#时光机穿梭" class="headerlink" title="时光机穿梭"></a>时光机穿梭</h1><ul>
-<li>要随时掌握工作区的状态，使用<code>git status</code>命令。</li>
-<li>如果<code>git status</code>告诉你有文件被修改过，用<code>git diff</code>可以查看修改内容。</li>
-</ul>
-<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/896954074659008" class="LinkCard">时光机穿梭</a></p>
-<h2 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h2><ul>
-<li><code>HEAD</code>指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令<code>git reset --hard commit_id</code>。</li>
-<li>穿梭前，用<code>git log</code>可以查看提交历史，以便确定要回退到哪个版本。</li>
-<li>要重返未来，用<code>git reflog</code>查看命令历史，以便确定要回到未来的哪个版本。</li>
-</ul>
-<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/897013573512192" class="LinkCard">版本回退</a></p>
-<h2 id="工作区和暂存区"><a href="#工作区和暂存区" class="headerlink" title="工作区和暂存区"></a>工作区和暂存区</h2><p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/897271968352576" class="LinkCard">工作区和暂存区</a></p>
-<h2 id="管理修改"><a href="#管理修改" class="headerlink" title="管理修改"></a>管理修改</h2><p>每次修改，如果不用<code>git add</code>到暂存区，那就不会加入到<code>commit</code>中。</p>
-<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/897884457270432" class="LinkCard">管理修改</a></p>
-<h2 id="撤销修改"><a href="#撤销修改" class="headerlink" title="撤销修改"></a>撤销修改</h2><ul>
-<li><p>场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令<code>git checkout -- file</code>。</p>
-</li>
-<li><p>场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令<code>git reset HEAD &lt;file&gt;</code>，就回到了场景1，第二步按场景1操作。</p>
-</li>
-<li><p>场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。</p>
-</li>
-</ul>
-<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/897889638509536" class="LinkCard">撤销修改</a></p>
-<h2 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h2><p>命令<code>git rm</code>用于删除一个文件。</p>
-<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/900002180232448" class="LinkCard">删除文件</a></p>
-<h1 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h1><p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416" class="LinkCard">远程仓库</a></p>
-<h2 id="添加远程库"><a href="#添加远程库" class="headerlink" title="添加远程库"></a>添加远程库</h2><ul>
-<li><p>要关联一个远程库，使用命令<code>git remote add origin git@server-name:path/repo-name.git</code>；</p>
-</li>
-<li><p>关联一个远程库时必须给远程库指定一个名字，<code>origin</code>是默认习惯命名；</p>
-</li>
-<li><p>关联后，使用命令<code>git push -u origin master</code>第一次推送master分支的所有内容；</p>
-</li>
-<li><p>此后，每次本地提交后，只要有必要，就可以使用命令<code>git push origin master</code>推送最新修改；</p>
-</li>
-</ul>
-<h2 id="从远程库克隆"><a href="#从远程库克隆" class="headerlink" title="从远程库克隆"></a>从远程库克隆</h2><p>要克隆一个仓库，首先必须知道仓库的地址，然后使用<code>git clone</code>命令克隆。</p>
-<p>Git支持多种协议，包括<code>https</code>，但<code>ssh</code>协议速度最快。</p>
+    <title>有关台风</title>
+    <url>/2021/11/17/%E6%9C%89%E5%85%B3%E5%8F%B0%E9%A3%8E/</url>
+    <content><![CDATA[<h1 id="台风百科"><a href="#台风百科" class="headerlink" title="台风百科"></a>台风百科</h1><p>维基百科的介绍，十分详细全面。<br><a href="https://chinois.jinzhao.wiki/wiki/%E7%86%B1%E5%B8%B6%E6%B0%A3%E6%97%8B" class="LinkCard">热带气旋</a></p>
+<h1 id="台风视频"><a href="#台风视频" class="headerlink" title="台风视频"></a>台风视频</h1><p>先推荐一位b站的up主<a href="https://space.bilibili.com/17466521?from=search&seid=498129991493630499&spm_id_from=333.337.0.0">风羽酱-sdk</a>的视频，当然作为一名追风者，他还有很多类似的优质的“台风的故事”视频，让我们一起感受一下台风之美：<br><a href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0" class="LinkCard">杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</a><br>两图均为视频中所截，为拥有完美风眼的两个超强台风。<br><img src="https://z3.ax1x.com/2021/11/17/I5Eo5T.png" width="80%"><br><img src="https://z3.ax1x.com/2021/11/17/I5VrLR.png" width="80%"></p>
+<h1 id="台风命名"><a href="#台风命名" class="headerlink" title="台风命名"></a>台风命名</h1><p>台风的得名有故事，<strong>台风的名字</strong>更有故事。每年台风季，人们都能记住几个新名字：“悟空”飞走了，“杜鹃”着陆了，“山竹”滚过来了……这些千奇百怪的名字，是世界气象组织的14个成员国家和地区各自提名10个、经由全体认可的结果，然后按英文首字母排序，循环使用，年复一年。<br><img src="https://z3.ax1x.com/2021/11/17/I5maJf.png" width="50%"></p>
+<center> 使用中的台风中文名称一览表。按从左到右、从上到下的顺序为台风命名。框线加粗的部分，就是2020年的1~30号台风的名字。制图/密林 </center>
+<br />
+对于造成严重伤亡和损失的台风，台风委员会经过讨论确认，会将它的名字拎出名单、与这场台风绑定，不再参与循环，也就是新闻常说的“除名”。腾出的空位，则由该台风的命名成员提交新名字补上。<br /><br />
+
+<blockquote>
+<p>作者：地道风物<br>链接：<a href="https://www.zhihu.com/question/31820631/answer/1407437070">https://www.zhihu.com/question/31820631/answer/1407437070</a><br>来源：知乎</p>
+</blockquote>
 ]]></content>
       <tags>
-        <tag>备忘</tag>
-        <tag>git</tag>
-        <tag>github</tag>
-        <tag>搬运</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>zotero入门</title>
-    <url>/2021/11/21/zotero%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<p>我其实本来使用的是endnoteX9，但是经过b站一群人的安利，发现Zotero更好用一些，因为它是开源的，所以集合了各种plugs之后简直强无敌（甚至做笔记还支持markdown，这就很舒服了）。</p>
-<p>先挂一个zotero官网的帮助文档在这：</p>
-<p><a href="https://www.zotero.org/support/" class="LinkCard">Zotero帮助文档</a></p>
-<p>下面先放一些个人学习中发现的干货。</p>
-<h2 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h2><p>最开始主要按照</p>
-<p><a href="https://www.bilibili.com/video/BV1fT4y1R776" class="LinkCard">Zotero Zotero：文献管理软件</a></p>
-<p>来配置学习，但里面对zotfile+坚果云同步的介绍让我很晕。</p>
-<h2 id="进阶"><a href="#进阶" class="headerlink" title="进阶"></a>进阶</h2><p>后来惊喜地发现一枚知乎的宝藏博主@<a href="https://www.zhihu.com/people/specter119">滏阳河边捉蚯蚓</a>写过（整理过）的专栏<a href="https://www.zhihu.com/column/reftools">RefTools</a>,让我后悔没早点看到。我在构建自己的zotero环境时，主要参考了这样几篇：</p>
-<p><a href="https://zhuanlan.zhihu.com/p/31453719" class="LinkCard">Zotero 跨平台同步附件的实现</a></p>
-<h3 id="完善zotero的小bug："><a href="#完善zotero的小bug：" class="headerlink" title="完善zotero的小bug："></a>完善zotero的小bug：</h3><h4 id="为-Zotero-删除无条目对应的文件链接附件"><a href="#为-Zotero-删除无条目对应的文件链接附件" class="headerlink" title="为 Zotero 删除无条目对应的文件链接附件"></a>为 Zotero 删除无条目对应的文件链接附件</h4><p><a href="https://zhuanlan.zhihu.com/p/41297136" class="LinkCard">为 Zotero 删除无条目对应的文件链接附件</a></p>
-<p>以下为上文中代码，贴在这里作为个人备忘，详情请见原文,下同：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#!/usr/bin/env python</span><br><span class="line"># coding: utf-8</span><br><span class="line"></span><br><span class="line">from __future__ import print_function</span><br><span class="line"></span><br><span class="line">import configparser</span><br><span class="line">import re</span><br><span class="line">import shutil</span><br><span class="line">import sqlite3</span><br><span class="line">import sys</span><br><span class="line">from imp import reload</span><br><span class="line"></span><br><span class="line">try:</span><br><span class="line">    from pathlib import Path</span><br><span class="line">except ImportError:</span><br><span class="line">    from pathlib2 import Path</span><br><span class="line"></span><br><span class="line">if sys.version_info.major == 2:</span><br><span class="line">    reload(sys)</span><br><span class="line">    sys.setdefaultencoding(&#x27;UTF8&#x27;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def get_zotfile_dest_and_zotero_data_dirs():</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    Get the Zotero data dir and the Zotfile destination dir in PosixPath type</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    profile_dirs = &#123;</span><br><span class="line">        &#x27;darwin&#x27;: Path.home() / &#x27;Library/Application Support/Zotero&#x27;,</span><br><span class="line">        &#x27;linux&#x27;: Path.home() / &#x27;.zotero/zotero&#x27;,</span><br><span class="line">        &#x27;linux2&#x27;: Path.home() / &#x27;.zotero/zotero&#x27;,</span><br><span class="line">        &#x27;win32&#x27;: Path.home() / &#x27;AppData/Roaming/Zotero/Zotero&#x27;</span><br><span class="line">    &#125;</span><br><span class="line">    profile_dir = profile_dirs[sys.platform]</span><br><span class="line"></span><br><span class="line">    config = configparser.ConfigParser()</span><br><span class="line">    config.read(&#x27;&#123;&#125;&#x27;.format(profile_dir / &#x27;profiles.ini&#x27;))</span><br><span class="line">    configs_loc = profile_dir / config[&#x27;Profile0&#x27;][&#x27;Path&#x27;] / &#x27;prefs.js&#x27;</span><br><span class="line">    configs = configs_loc.read_text()</span><br><span class="line"></span><br><span class="line">    zotero_data_pat = re.compile(</span><br><span class="line">        r&#x27;user_pref\(&quot;extensions.zotero.dataDir&quot;,\ &quot;(?P&lt;zotero_data&gt;.+)&quot;\);&#x27;)</span><br><span class="line">    zotero_data_dir = Path(zotero_data_pat.search(</span><br><span class="line">        configs).group(&#x27;zotero_data&#x27;))</span><br><span class="line">    zotfile_dest_pat = re.compile(</span><br><span class="line">        r&#x27;user_pref\(&quot;extensions.zotfile.dest_dir&quot;,\ &quot;(?P&lt;zotfile_dest&gt;.+)&quot;\);&#x27;)</span><br><span class="line">    zotfile_dest_dir = Path(</span><br><span class="line">        zotfile_dest_pat.search(configs).group(&#x27;zotfile_dest&#x27;))</span><br><span class="line"></span><br><span class="line">    return zotero_data_dir, zotfile_dest_dir</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def get_unmaintained_files(zotero_data_dir,</span><br><span class="line">                           zotfile_dest_dir,</span><br><span class="line">                           case_sensitive=&#x27;auto&#x27;):</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    Get a list of atthchment in PosixPath type that unmaintained in the Zotero</span><br><span class="line">    Args:</span><br><span class="line">        zotero_data_dir(PosixPath): Zotero data dir</span><br><span class="line">        zotfile_dest_dir(PosixPath): Zotfile destination dir</span><br><span class="line">        case_sensitive(bool or str): wether the os is case sensitive, </span><br><span class="line">                                     default set linux as True, and rest as False</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    attachments_local = set(p.as_posix() for p in zotfile_dest_dir.glob(&#x27;**/*&#x27;)</span><br><span class="line">                            if p.is_file() and p.name[0] != &#x27;.&#x27;)</span><br><span class="line"></span><br><span class="line">    con = sqlite3.connect(&#x27;&#123;&#125;&#x27;.format(zotero_data_dir / &#x27;zotero.sqlite&#x27;))</span><br><span class="line">    with con:</span><br><span class="line">        cur = con.cursor()</span><br><span class="line">        cur.execute(&#x27;SELECT path FROM itemAttachments WHERE linkMode = 2&#x27;)</span><br><span class="line">        attachments_zotero = set([</span><br><span class="line">            p.as_posix() for p in [</span><br><span class="line">                zotfile_dest_dir / p[0].replace(&#x27;attachments:&#x27;, &#x27;&#x27;, 1)</span><br><span class="line">                for p in cur.fetchall()</span><br><span class="line">            ]</span><br><span class="line">        ])</span><br><span class="line"></span><br><span class="line">    if sys.platform == &#x27;darwin&#x27;:</span><br><span class="line">        import unicodedata</span><br><span class="line">        attachments_zotero = set(</span><br><span class="line">            list(attachments_zotero) +</span><br><span class="line">            [unicodedata.normalize(&#x27;NFD&#x27;, p) for p in attachments_zotero])</span><br><span class="line">    if case_sensitive == &#x27;auto&#x27;:</span><br><span class="line">        case_sensitive = &#123;</span><br><span class="line">            &#x27;darwin&#x27;: False,</span><br><span class="line">            &#x27;linux&#x27;: True,</span><br><span class="line">            &#x27;linux2&#x27;: True,</span><br><span class="line">            &#x27;win32&#x27;: False</span><br><span class="line">        &#125;[sys.platform]</span><br><span class="line">    if not case_sensitive:</span><br><span class="line">        attachments_local = set([p.lower() for p in attachments_local])</span><br><span class="line">        attachments_zotero = set([p.lower() for p in attachments_zotero])</span><br><span class="line">    attachments_to_remove = attachments_local - attachments_zotero</span><br><span class="line"></span><br><span class="line">    return [Path(p) for p in attachments_to_remove]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def remove_unmaintained(attachments_to_remove):</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    Remove the unmaintained files in PosixPath type, and clear empty dirs</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    [p.unlink() for p in attachments_to_remove]</span><br><span class="line">    empty_dirs = [</span><br><span class="line">        p for p in zotfile_dest_dir.glob(&#x27;**/*&#x27;) if (not p.is_file()) and (</span><br><span class="line">            not len([f for f in list(p.iterdir()) if f.name[0] != &#x27;.&#x27;]))</span><br><span class="line">    ]</span><br><span class="line">    [shutil.rmtree(p.as_posix(), ignore_errors=True) for p in empty_dirs]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    zotero_data_dir, zotfile_dest_dir = get_zotfile_dest_and_zotero_data_dirs()</span><br><span class="line">    attachments_to_remove = get_unmaintained_files(zotero_data_dir,</span><br><span class="line">                                                   zotfile_dest_dir)</span><br><span class="line"></span><br><span class="line">    try:</span><br><span class="line">        import click</span><br><span class="line">        print(&#x27;The following files are no longer managed by Zotero:&#x27;)</span><br><span class="line">        print(&#x27;\n&#x27;.join([&#x27;  &#123;&#125;&#x27;.format(p) for p in attachments_to_remove]))</span><br><span class="line">        if click.confirm(&#x27;Do you want remove them?&#x27;, default=True):</span><br><span class="line">            remove_unmaintained(attachments_to_remove)</span><br><span class="line">    except ImportError:</span><br><span class="line">        print(</span><br><span class="line">            &#x27;The following files no longer managed by Zotero will be removed:&#x27;)</span><br><span class="line">        print(&#x27;\n&#x27;.join([&#x27;  &#123;&#125;&#x27;.format(p) for p in attachments_to_remove]))</span><br><span class="line">        remove_unmaintained(attachments_to_remove)</span><br></pre></td></tr></table></figure>
-
-<h4 id="为-Zotero-删除-storage-中的“空”文件夹"><a href="#为-Zotero-删除-storage-中的“空”文件夹" class="headerlink" title="为 Zotero 删除 storage 中的“空”文件夹"></a>为 Zotero 删除 storage 中的“空”文件夹</h4><p><a href="https://zhuanlan.zhihu.com/p/41168160" class="LinkCard">为 Zotero 删除 storage 中的“空”文件夹</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#!/usr/bin/env python</span><br><span class="line"># coding: utf-8</span><br><span class="line"></span><br><span class="line">from __future__ import print_function</span><br><span class="line"></span><br><span class="line">import configparser</span><br><span class="line">import re</span><br><span class="line">import shutil</span><br><span class="line">import sys</span><br><span class="line"></span><br><span class="line">try:</span><br><span class="line">    from pathlib import Path</span><br><span class="line">except ImportError:</span><br><span class="line">    from pathlib2 import Path</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def get_zotero_storage_dir():</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    Get the Zotero storage dir and in PosixPath type</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    profile_dirs = &#123;</span><br><span class="line">        &#x27;darwin&#x27;: Path.home() / &#x27;Library/Application Support/Zotero&#x27;,</span><br><span class="line">        &#x27;linux&#x27;: Path.home() / &#x27;.zotero/zotero&#x27;,</span><br><span class="line">        &#x27;linux2&#x27;: Path.home() / &#x27;.zotero/zotero&#x27;,</span><br><span class="line">        &#x27;win32&#x27;: Path.home() / &#x27;AppData/Roaming/Zotero/Zotero&#x27;</span><br><span class="line">    &#125;</span><br><span class="line">    profile_dir = profile_dirs[sys.platform]</span><br><span class="line"></span><br><span class="line">    config = configparser.ConfigParser()</span><br><span class="line">    config.read(&#x27;&#123;&#125;&#x27;.format(profile_dir / &#x27;profiles.ini&#x27;))</span><br><span class="line">    configs_loc = profile_dir / config[&#x27;Profile0&#x27;][&#x27;Path&#x27;] / &#x27;prefs.js&#x27;</span><br><span class="line">    configs = configs_loc.read_text()</span><br><span class="line"></span><br><span class="line">    zotero_data_pat = re.compile(</span><br><span class="line">        r&#x27;user_pref\(&quot;extensions.zotero.dataDir&quot;,\ &quot;(?P&lt;zotero_data&gt;.+)&quot;\);&#x27;)</span><br><span class="line">    zotero_data_dir = Path(zotero_data_pat.search(configs).group(&#x27;zotero_data&#x27;))</span><br><span class="line">    storage_dir = zotero_data_dir / &#x27;storage&#x27;</span><br><span class="line">    return storage_dir</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def get_empty_folders(zotero_storage_dir):</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    Get a list of empty dir in string type.</span><br><span class="line">    &#x27;&#x27;&#x27;</span><br><span class="line">    return [</span><br><span class="line">        p.as_posix() for p in zotero_storage_dir.iterdir()</span><br><span class="line">        if (not p.is_file()) and (</span><br><span class="line">            not len([f for f in list(p.iterdir()) if f.name[0] != &#x27;.&#x27;]))</span><br><span class="line">    ]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    zotero_storage_dir = get_zotero_storage_dir()</span><br><span class="line">    dirs_to_remove = get_empty_folders(zotero_storage_dir)</span><br><span class="line">    try:</span><br><span class="line">        import click</span><br><span class="line">        print(&#x27;The following folders contain no attachments:&#x27;)</span><br><span class="line">        print(&#x27;\n  &#x27;.join([&#x27;&#x27;] + dirs_to_remove))</span><br><span class="line">        if click.confirm(&#x27;Do you want remove them?&#x27;, default=True):</span><br><span class="line">            [shutil.rmtree(p, ignore_errors=True) for p in dirs_to_remove]</span><br><span class="line">    except ImportError:</span><br><span class="line">        print(</span><br><span class="line">            &#x27;The following folders containing no attachments will be removed:&#x27;)</span><br><span class="line">        print(&#x27;\n  &#x27;.join([&#x27;&#x27;] + dirs_to_remove))</span><br><span class="line">        [shutil.rmtree(p, ignore_errors=True) for p in dirs_to_remove]</span><br></pre></td></tr></table></figure>
-
-<h4 id="批量删除（合并）重复文献"><a href="#批量删除（合并）重复文献" class="headerlink" title="批量删除（合并）重复文献"></a>批量删除（合并）重复文献</h4><p>还有一个是去重的，个人感觉不太用的上，但还是挂在这里，这来自另外一位知乎博主@<a href="https://www.zhihu.com/people/johnmy-89">johnmy</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/352324486" class="LinkCard">为 Zotero 删除 storage 中的“空”文件夹</a></p>
-<p>他还有写的解决上述两个bug的脚本，而且不需要其他软件，但是本人测试后好像有点小问题（具体是什么忘了），所以采用了上述方法，也并不麻烦。</p>
-<h2 id="EndNote-gt-Zotero"><a href="#EndNote-gt-Zotero" class="headerlink" title="EndNote-&gt;Zotero"></a>EndNote-&gt;Zotero</h2><p><a href="https://www.zotero.org/support/zh/kb/importing_records_from_endnote" class="LinkCard">如何导入EndNote的记录?</a></p>
-]]></content>
-      <tags>
-        <tag>备忘</tag>
-        <tag>zotero</tag>
+        <tag>台风</tag>
+        <tag>科普</tag>
       </tags>
   </entry>
 </search>

@@ -2042,7 +2042,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #169d2d;
+  background: #3d4f45;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3318,7 +3318,7 @@ ul.breadcrumb li+li:last-child {
 .busuanzi-value {
   color: #1890ff;
 }
-.post-toc .nav .nav-level-1>.nav-child {
+.post-toc .nav .nav-child {
   display: block;
 }
 .highlight-wrap {
