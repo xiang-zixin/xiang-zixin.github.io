@@ -890,7 +890,7 @@
         notify: true,
         appId: 'GfyqSdIAhwpbzb6CAGmIx6um-MdYXbMMI',
         appKey: 'DL9qod66ziG3KKaRHDcnQbiu',
-        placeholder: '说点啥不？支持Markdown哦O(∩_∩)O',
+        placeholder: '支持Markdown，留下邮箱可以收评论回复提醒哦O(∩_∩)O',
         avatar:'mm',
         meta:guest,
         pageSize:'10' || 10,
@@ -1271,15 +1271,15 @@
     
 
     $(function() {
-      $.get('https://app-router.leancloud.cn/2/route?appId=' + "aqqhw4S409ybGR0bCUt4EcVE-gzGzoHsz")
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + "GfyqSdIAhwpbzb6CAGmIx6um-MdYXbMMI")
         .done(function ({ api_server }) {
           var Counter = function (method, url, data) {
             return $.ajax({
               method: method,
               url: `https://${api_server}/1.1${url}`,
               headers: {
-                'X-LC-Id': "aqqhw4S409ybGR0bCUt4EcVE-gzGzoHsz",
-                'X-LC-Key': "7UVtcy8tdjDL2eQ91UWsagcd",
+                'X-LC-Id': "GfyqSdIAhwpbzb6CAGmIx6um-MdYXbMMI",
+                'X-LC-Key': "DL9qod66ziG3KKaRHDcnQbiu",
                 'Content-Type': 'application/json',
               },
               data: data,
