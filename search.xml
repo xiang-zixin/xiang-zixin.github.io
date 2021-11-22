@@ -52,6 +52,10 @@
 <hr>
 <h1 id="类知乎卡片"><a href="#类知乎卡片" class="headerlink" title="类知乎卡片"></a>类知乎卡片</h1><figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">&lt;a <span class="attribute">href</span>=<span class="string">&quot;https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&amp;seid=18161649055479728259&amp;spm_id_from=333.337.0.0&quot;</span> <span class="attribute">class</span>=<span class="string">&quot;LinkCard&quot;</span>&gt;杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》&lt;/a&gt;</span><br></pre></td></tr></table></figure>
 <p><a href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0" class="LinkCard">杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</a></p>
+<h1 id="折叠块"><a href="#折叠块" class="headerlink" title="折叠块"></a>折叠块</h1><figure class="highlight django"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">fold</span> 点击显/隐内容 %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml"></span></span><br><span class="line"><span class="xml"> something you want to fold, include code block. </span></span><br><span class="line"><span class="xml"></span></span><br><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">endfold</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+
+
+
 <div><div class="fold_hider"><div class="close hider_title">点击显/隐内容</div></div><div class="fold">
 <p>something you want to fold, include code block. </p>
 
