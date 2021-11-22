@@ -2042,7 +2042,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e8db46;
+  background: #e2ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3367,4 +3367,14 @@ ul.breadcrumb li+li:last-child {
 .back-to-top.back-to-top-on {
   bottom: unset;
   top: calc(100vh - 900px - 200px);
+}
+.hider_title {
+  cursor: pointer;
+  color: #ef4a05;
+}
+.close:before {
+  content: "▼";
+}
+.open:before {
+  content: "▲";
 }
