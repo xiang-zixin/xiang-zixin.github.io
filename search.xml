@@ -68,7 +68,8 @@
   <entry>
     <title>git与github入门命令整理</title>
     <url>/2021/11/20/git%E4%B8%8Egithub%E5%85%A5%E9%97%A8%E5%91%BD%E4%BB%A4%E6%95%B4%E7%90%86/</url>
-    <content><![CDATA[<h1 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h1><p>初始化一个Git仓库，使用<code>git init</code>命令。</p>
+    <content><![CDATA[<p>本文为笔者在学习<a href="https://www.liaoxuefeng.com/wiki/896043488029600">廖雪峰老师的Git教程</a>时的一些简单的入门命令的整理，廖老师的Git教程浅显易懂，适合初学者，特此推荐！</p>
+<h1 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h1><p>初始化一个Git仓库，使用<code>git init</code>命令。</p>
 <p>添加文件到Git仓库，分两步：</p>
 <ol>
 <li>使用命令<code>git add &lt;file&gt;</code>，注意，可反复多次使用，添加多个文件；</li>
