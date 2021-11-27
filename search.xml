@@ -47,10 +47,12 @@
 <li><p>关联后，使用命令<code>git push -u origin master</code>第一次推送master分支的所有内容；</p>
 </li>
 <li><p>此后，每次本地提交后，只要有必要，就可以使用命令<code>git push origin master</code>推送最新修改；</p>
+<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/898732864121440" class="LinkCard">添加远程库</a></p>
 </li>
 </ul>
 <h2 id="从远程库克隆"><a href="#从远程库克隆" class="headerlink" title="从远程库克隆"></a>从远程库克隆</h2><p>要克隆一个仓库，首先必须知道仓库的地址，然后使用<code>git clone</code>命令克隆。</p>
 <p>Git支持多种协议，包括<code>https</code>，但<code>ssh</code>协议速度最快。</p>
+<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/898732792973664" class="LinkCard">从远程库克隆</a></p>
 ]]></content>
       <tags>
         <tag>备忘</tag>
