@@ -75,7 +75,7 @@ $(document).ready(function() {
     
     // 对获取到的url进行重编码
     //targetSelector = URLDecoder.decode(this.getAttribute('href'),"UTF-8")
-    targetSelector = decodeURI(this.getAttribute('href'))
+    //targetSelector = decodeURI(this.getAttribute('href'))
 
     var offset = $(targetSelector).offset().top;
 
