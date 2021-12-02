@@ -474,6 +474,74 @@
 <p><img src="../blogImages/%E5%8D%AB%E6%98%9F%E6%B5%B7%E6%B4%8B%E5%AD%A6mooc%E5%AD%A6%E4%B9%A0/image-20211127222430280.png" alt="image-20211127222430280"></p>
 </li>
 </ul>
+<h2 id="5-1-电磁波的波段与波动方程"><a href="#5-1-电磁波的波段与波动方程" class="headerlink" title="5.1 电磁波的波段与波动方程"></a>5.1 电磁波的波段与波动方程</h2><ul>
+<li>电磁波的波段<ul>
+<li>热红外对应地表辐射</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/xiang-zixin/blogPic/main/202112020858865.png" alt="image-20211202085813771"></p>
+<ul>
+<li>微波波段</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/xiang-zixin/blogPic/main/202112020903903.png" alt="image-20211202090300866"></p>
+<ul>
+<li>复折射率n<ul>
+<li>实部$n’$表示电磁波在两介质的界面传播速度和方向的变化</li>
+<li>虚部$n’’$表示电磁波在介质内部传播的衰减程度</li>
+</ul>
+</li>
+</ul>
+<p>$$<br>\boldsymbol{n}=n’-i\cdot n’’<br>$$</p>
+<h2 id="5-2-辐射术语"><a href="#5-2-辐射术语" class="headerlink" title="5.2 辐射术语"></a>5.2 辐射术语</h2><h3 id="5-2-1-极化-Polarization"><a href="#5-2-1-极化-Polarization" class="headerlink" title="5.2.1 极化(Polarization)"></a>5.2.1 极化(Polarization)</h3><ul>
+<li><p>定义：如果一束平面电磁波的电场矢量都在一个平面内,则称之为线性极化或线性偏振的。</p>
+</li>
+<li><p>任何线性极化的电磁波都可分解为两个部分:</p>
+<ul>
+<li>水平极化(horizontal polarization)</li>
+<li>垂直极化(vertical polarization)</li>
+</ul>
+<p>极化状态根据电场方向与参考平面的关系来定义</p>
+</li>
+<li><p>参考平面：由两条直线确定,一条是海表面的垂线0Z,另一条是入射或离开海面的电磁波束所在的直线</p>
+<ul>
+<li>水平极化：电场矢量与参考平面垂直</li>
+<li>垂直极化：电场矢量位于参考平面内或与参考平面平行</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/xiang-zixin/blogPic/main/202112021121005.bmp" alt="参考平面"></p>
+</li>
+</ul>
+<h3 id="5-2-2-立体角-Solid-Angle-of-Observation"><a href="#5-2-2-立体角-Solid-Angle-of-Observation" class="headerlink" title="5.2.2 立体角(Solid Angle of Observation)"></a>5.2.2 立体角(Solid Angle of Observation)</h3><img src="https://raw.githubusercontent.com/xiang-zixin/blogPic/main/202112021132501.png" alt="image-20211202113234434" style="zoom:67%;" />
+
+<ul>
+<li><p>卫星/观测的天顶角(satellite zenith angle) <strong>b</strong></p>
+<p>描述卫星观测方向与被观测海面法线之间的夹角(对雷达,也称入射角)</p>
+</li>
+<li><p>太阳天顶角(solar zenith angle) <strong>c</strong></p>
+<p>代表太阳到被观测海面的光束方向与被观测海面法线之间的夹角</p>
+</li>
+<li><p>观测角(view angle) <strong>a</strong></p>
+<p>描述卫星观测方向与星下点海面法线之间的夹角</p>
+</li>
+</ul>
+<h2 id="5-3-辐射术语②"><a href="#5-3-辐射术语②" class="headerlink" title="5.3 辐射术语②"></a>5.3 辐射术语②</h2><h3 id="发射率-e-lambda-emissivity"><a href="#发射率-e-lambda-emissivity" class="headerlink" title="发射率$e(\lambda)$(emissivity)"></a>发射率$e(\lambda)$(emissivity)</h3><p>$$<br>e\left( \lambda \right) =\frac{E}{E_{BLACK}}\ \ E_{BLACK}:与物体具有相同温度的黑体自发辐射的辐照度<br>$$</p>
+<h2 id="5-4-基尔霍夫定律"><a href="#5-4-基尔霍夫定律" class="headerlink" title="5.4 基尔霍夫定律"></a>5.4 基尔霍夫定律</h2><ul>
+<li><p>基尔霍夫定律(Kirchhoff,1859)基本表达:</p>
+<p>如果介质处于局部热力学平衡条件下，那么它吸收能量的速率和 辐射能量的速率相等，即<br>$$<br>e\left( \lambda \right) =a\left( \lambda \right)<br>$$</p>
+<ul>
+<li>既可应用于两介质界面处，也可应用于某介质内部</li>
+<li>基尔霍夫定律是海表面物理量遥感机理的基础之一</li>
+<li>地球表面温度变化的时间尺度 &gt;&gt; 遥感仪器的一次测量需要的时间区间，因此，在遥感计算中，地球表面的局部热力学平衡条件得到普遍满足。</li>
+</ul>
+</li>
+<li><p>推广公式1—适用于两介质界面处<br>$$<br>e\left( \lambda ,\theta ,\varphi \right) =1-\rho \left( \lambda ,\theta ,\varphi \right)<br>$$</p>
+<ul>
+<li>$e$为发射率，$\rho$为菲涅尔反射率</li>
+</ul>
+</li>
+<li><p>推广公式2—适用于介质内部<br>$$<br>e\left( \lambda ,\theta \right) =1-t\left( \lambda ,\theta \right)<br>$$</p>
+</li>
+</ul>
 ]]></content>
       <tags>
         <tag>卫星海洋学</tag>
