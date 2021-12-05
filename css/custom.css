@@ -4,11 +4,21 @@
     src:url('/fonts/小楷字体SJ2.ttf'); /* 字体文件路径 */
     font-display : swap;
   }
+@font-face{
+    font-family:'庞中华' ;  /* 字体名自定义即可 */
+    src:url('/fonts/庞中华钢笔字体.TTF'); /* 字体文件路径 */
+    font-display : swap;
+  }
+@font-face{
+    font-family:'FZSZJW' ;  /* 字体名自定义即可 */
+    src:url('/fonts/FZSZJW.TTF'); /* 字体文件路径 */
+    font-display : swap;
+  }
 h1#site-title {
-  font-family: '小楷字体', sans-serif;
+  font-family: 'FZSZJW', sans-serif;
 }
 div#site-subtitle {
-    font-family: '小楷字体', sans-serif;
+    font-family: '庞中华', sans-serif;
 }
 
 
