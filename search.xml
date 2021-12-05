@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/p/4a17b156.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>git与github入门命令整理</title>
     <url>/p/2e606060.html</url>
     <content><![CDATA[<p>本文为笔者在学习<a href="https://www.liaoxuefeng.com/wiki/896043488029600">廖雪峰老师的Git教程</a>时的一些简单的入门命令的整理，廖老师的Git教程浅显易懂，适合初学者，特此推荐！</p>
@@ -177,56 +196,6 @@ b 满船清梦压星河</li>
       <tags>
         <tag>备忘</tag>
         <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/p/4a17b156.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>有关台风</title>
-    <url>/p/2ed372d2.html</url>
-    <content><![CDATA[<h1>台风百科</h1>
-<p>维基百科的介绍，十分详细全面。</p>
-<a class="btn-beautify button--animated block center larger" href="https://chinois.jinzhao.wiki/wiki/%E7%86%B1%E5%B8%B6%E6%B0%A3%E6%97%8B" 
-  title="热带气旋"><i class="far fa-hand-point-right"></i><span>热带气旋</span></a>
-<h1>台风视频</h1>
-<p>先推荐一位b站的up主<a href="https://space.bilibili.com/17466521?from=search&amp;seid=498129991493630499&amp;spm_id_from=333.337.0.0">风羽酱-sdk</a>的视频，当然作为一名追风者，他还有很多类似的优质的“台风的故事”视频，让我们一起感受一下台风的壮观：</p>
-<a class="btn-beautify button--animated block center larger" href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0" 
-  title="杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》"><i class="far fa-hand-point-right"></i><span>杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</span></a>
-<p>两图均为视频中所截，为拥有完美风眼的两个超强台风。<br>
-<img src="https://z3.ax1x.com/2021/11/17/I5Eo5T.png" width="80%"><br>
-<img src="https://z3.ax1x.com/2021/11/17/I5VrLR.png" width="80%"></p>
-<h1>台风命名</h1>
-<p>台风的得名有故事，<strong>台风的名字</strong>更有故事。每年台风季，人们都能记住几个新名字：“悟空”飞走了，“杜鹃”着陆了，“山竹”滚过来了……这些千奇百怪的名字，是世界气象组织的14个成员国家和地区各自提名10个、经由全体认可的结果，然后按英文首字母排序，循环使用，年复一年。<br>
-<img src="https://z3.ax1x.com/2021/11/17/I5maJf.png" width="50%"></p>
-<center> 使用中的台风中文名称一览表。按从左到右、从上到下的顺序为台风命名。框线加粗的部分，就是2020年的1~30号台风的名字。制图/密林 </center>
-<br />
-对于造成严重伤亡和损失的台风，台风委员会经过讨论确认，会将它的名字拎出名单、与这场台风绑定，不再参与循环，也就是新闻常说的“除名”。腾出的空位，则由该台风的命名成员提交新名字补上。<br />
-<blockquote>
-<p>作者：地道风物<br>
-链接：<a href="https://www.zhihu.com/question/31820631/answer/1407437070">https://www.zhihu.com/question/31820631/answer/1407437070</a><br>
-来源：知乎</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>台风</tag>
-        <tag>科普</tag>
       </tags>
   </entry>
   <entry>
@@ -580,9 +549,7 @@ b 满船清梦压星河</li>
 <p>只有黑体（发射率 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>e</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">e=1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">e</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span>）才是完全理想的余弦辐射体，其表面才是理想的朗伯表面</p>
 </li>
 <li>
-<p>在可见光和红外波段，具有粗糙表面的自身发射体和被照射的散射体接近于余弦辐射体</p>
-<p>即，在这些波段，物体表面自发辐射的电磁波或者反射的电 磁波可以认为是各向同性的</p>
-<p>——海洋遥感的基本理论依据之一</p>
+<p>在可见光和红外波段，具有粗糙表面的自身发射体和被照射的散射体接近于余弦辐射体，即，在这些波段，物体表面自发辐射的电磁波或者反射的电磁波可以认为是各向同性的——海洋遥感的基本理论依据之一</p>
 </li>
 </ul><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="-2"><blockquote>
 <p>摘自《海洋遥感导论(修订版)》P85</p>
@@ -917,6 +884,37 @@ M1001 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
         <tag>卫星海洋学</tag>
         <tag>知识点</tag>
         <tag>mooc</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>有关台风</title>
+    <url>/p/2ed372d2.html</url>
+    <content><![CDATA[<h1>台风百科</h1>
+<p>维基百科的介绍，十分详细全面。</p>
+<a class="btn-beautify button--animated block center larger" href="https://chinois.jinzhao.wiki/wiki/%E7%86%B1%E5%B8%B6%E6%B0%A3%E6%97%8B" 
+  title="热带气旋"><i class="far fa-hand-point-right"></i><span>热带气旋</span></a>
+<h1>台风视频</h1>
+<p>先推荐一位b站的up主<a href="https://space.bilibili.com/17466521?from=search&amp;seid=498129991493630499&amp;spm_id_from=333.337.0.0">风羽酱-sdk</a>的视频，当然作为一名追风者，他还有很多类似的优质的“台风的故事”视频，让我们一起感受一下台风的壮观：</p>
+<a class="btn-beautify button--animated block center larger" href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0" 
+  title="杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》"><i class="far fa-hand-point-right"></i><span>杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</span></a>
+<p>两图均为视频中所截，为拥有完美风眼的两个超强台风。<br>
+<img src="https://z3.ax1x.com/2021/11/17/I5Eo5T.png" width="80%"><br>
+<img src="https://z3.ax1x.com/2021/11/17/I5VrLR.png" width="80%"></p>
+<h1>台风命名</h1>
+<p>台风的得名有故事，<strong>台风的名字</strong>更有故事。每年台风季，人们都能记住几个新名字：“悟空”飞走了，“杜鹃”着陆了，“山竹”滚过来了……这些千奇百怪的名字，是世界气象组织的14个成员国家和地区各自提名10个、经由全体认可的结果，然后按英文首字母排序，循环使用，年复一年。<br>
+<img src="https://z3.ax1x.com/2021/11/17/I5maJf.png" width="50%"></p>
+<center> 使用中的台风中文名称一览表。按从左到右、从上到下的顺序为台风命名。框线加粗的部分，就是2020年的1~30号台风的名字。制图/密林 </center>
+<br />
+对于造成严重伤亡和损失的台风，台风委员会经过讨论确认，会将它的名字拎出名单、与这场台风绑定，不再参与循环，也就是新闻常说的“除名”。腾出的空位，则由该台风的命名成员提交新名字补上。<br />
+<blockquote>
+<p>作者：地道风物<br>
+链接：<a href="https://www.zhihu.com/question/31820631/answer/1407437070">https://www.zhihu.com/question/31820631/answer/1407437070</a><br>
+来源：知乎</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>台风</tag>
+        <tag>科普</tag>
       </tags>
   </entry>
   <entry>
