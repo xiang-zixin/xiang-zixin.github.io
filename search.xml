@@ -831,6 +831,8 @@ M1001 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
   title="Markdown 教程 | 菜鸟教程"><i class="far fa-hand-point-right"></i><span>Markdown 教程 | 菜鸟教程</span></a>
 <a class="btn-beautify button--animated block center larger" href="http://yearito.cn/posts/hexo-writing-skills.html" 
   title="Hexo 搭建个人博客系列：写作技巧篇"><i class="far fa-hand-point-right"></i><span>Hexo 搭建个人博客系列：写作技巧篇</span></a>
+<a class="btn-beautify button--animated block center larger" href="https://butterfly.js.org/posts/4aa8abbe/#%E6%A8%99%E7%B1%A4%E5%A4%96%E6%8E%9B%EF%BC%88Tag-Plugins%EF%BC%89" 
+  title="标签外挂"><i class="far fa-hand-point-right"></i><span>标签外挂</span></a>
 <h1>阅读全文</h1>
 <figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- more --&gt;</span></span><br></pre></td></tr></table></figure>
 <h1>一级标题</h1>
@@ -941,10 +943,13 @@ b 满船清梦压星河</li>
 <strong>由此产生的任何问题都将读者/用户（您）承担。</strong></p>
 <h2 id="Begin">Begin</h2>
 <ol>
-<li>下载所需要的代码文件(typoraCracker)</li>
+<li>
+<p>下载所需要的代码文件(typoraCracker)</p>
+<a class="btn-beautify button--animated block center larger" href="https://wwa.lanzouo.com/i9WV9x8f56h" 
+  title="蓝奏云"><i class="far fa-hand-point-right"></i><span>蓝奏云</span></a>
+</li>
 </ol>
-<p><a href="https://wwa.lanzouo.com/i9WV9x8f56h">蓝奏云</a></p>
-<p>下载完成后解压到任意位置得到typoraCracker文件夹</p>
+<p>​		下载完成后解压到任意位置得到typoraCracker文件夹</p>
 <ol start="2">
 <li>环境配置</li>
 </ol>
@@ -952,33 +957,33 @@ b 满船清梦压星河</li>
 <li>Python（<a href="https://blog.csdn.net/qq_34120459/article/details/86425559">教程</a>）</li>
 <li>Node.js（<a href="https://blog.csdn.net/cai454692590/article/details/86093297">教程</a>）</li>
 </ul>
-<p>注意：python不要开虚拟环境</p>
+<p>​	注意：python不要开虚拟环境</p>
 <ol start="3">
 <li>安装依赖</li>
 </ol>
-<p>在<code>typoraCracker</code>文件夹内打开<code>Powershell</code>窗口</p>
+<p>​		在<code>typoraCracker</code>文件夹内打开<code>Powershell</code>窗口</p>
 <figure class="highlight vala"><table><tr><td class="code"><pre><span class="line">pip install -r requirements.txt</span><br><span class="line"><span class="meta"># 安装依赖</span></span><br><span class="line">python typora.py --help</span><br><span class="line"><span class="meta"># 测试是否安装完成</span></span><br></pre></td></tr></table></figure>
-<p>安装成功则会显示下图。<br>
+<p>​		安装成功则会显示下图。<br>
 <a href="https://img.huran.xyz/post/shell.png"><img src="../blogImages/%E9%80%9A%E8%BF%87Python%E8%84%9A%E6%9C%AC%E8%8E%B7%E5%BE%97Typora%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83-%E7%BA%AF%E6%90%AC%E8%BF%90/shell.png" alt="成功示意图"></a></p>
 <ol start="4">
 <li>确认位置</li>
 </ol>
-<p>寻找<code>Typora</code>安装文件夹，并找到<code>app.asar</code>文件<br>
-默认位置为<code>C:\Program Files\Typora\resources\app.asar</code></p>
+<p>​		寻找<code>Typora</code>安装文件夹，并找到<code>app.asar</code>文件<br>
+​		默认位置为<code>C:\Program Files\Typora\resources\app.asar</code></p>
 <ol start="5">
 <li>解包更换</li>
 </ol>
 <figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">PYTHON</span><br><span class="line">python typora.py  <span class="string">&quot;C:\Program Files\Typora\resources\app.asar&quot;</span> outfile/</span><br><span class="line"><span class="comment"># 将asar文件解包</span></span><br><span class="line">Copy-Item example<span class="regexp">/patch/</span>License.js outfile/dec_app</span><br><span class="line"><span class="comment"># 复制并替换license文件</span></span><br><span class="line">python typora.py -u outfile<span class="regexp">/dec_app outfile/</span></span><br><span class="line"><span class="comment"># 重新打包asar文件</span></span><br><span class="line">node example/keygen.js</span><br><span class="line"><span class="comment"># 获取 key 一会用来激活代码呆这里</span></span><br></pre></td></tr></table></figure>
-<p>注意<code>key</code>后续激活需要用到</p>
+<p>​		注意<code>key</code>后续激活需要用到</p>
 <ol start="6">
 <li>备份替换</li>
 </ol>
-<p>将原版<code>app.asar</code>改为<code>app.asar.bak</code>备份<br>
-将<code>outfile</code>文件夹内的<code>app.asar</code>粘贴到<code>C:\Program Files\Typora\resources\</code></p>
+<p>​		将原版<code>app.asar</code>改为<code>app.asar.bak</code>备份<br>
+​		将<code>outfile</code>文件夹内的<code>app.asar</code>粘贴到<code>C:\Program Files\Typora\resources\</code></p>
 <ol start="7">
 <li>激活</li>
 </ol>
-<p>打开 <code>typora</code> 输入第5步中的<code>key</code>，邮箱随意。</p>
+<p>​		打开 <code>typora</code> 输入第5步中的<code>key</code>，邮箱随意。</p>
 <h2 id="Enjoy">Enjoy</h2>
 <p><a href="https://img.huran.xyz/post/typoracreak.png"><img src="../blogImages/%E9%80%9A%E8%BF%87Python%E8%84%9A%E6%9C%AC%E8%8E%B7%E5%BE%97Typora%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83-%E7%BA%AF%E6%90%AC%E8%BF%90/typoracreak.png" alt="typora激活成功.png"></a></p>
 ]]></content>
