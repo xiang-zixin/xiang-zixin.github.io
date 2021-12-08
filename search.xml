@@ -1245,10 +1245,11 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 <a class="btn-beautify button--animated block center larger" href="https://cleanup.pictures/" 
   title="cleanup"><i class="far fa-hand-point-right"></i><span>cleanup</span></a>
 <blockquote>
-<p>来自笔者刷过的一个b站视频<a href="https://www.bilibili.com/video/BV1CF411h79V?p=1&amp;share_medium=android&amp;share_plat=android&amp;share_session_id=1e56755a-6465-4c3d-b979-8453dce731cf&amp;share_source=QQ&amp;share_tag=s_i&amp;timestamp=1638952063&amp;unique_k=o1mjmzT">用AI算法P掉毕导！结果非常的amazing啊！</a>技术相关资料如下：</p>
-<p>代码：<a href="https://github.com/saic-mdal/lama">https://github.com/saic-mdal/lama</a></p>
-<p>论文：<a href="https://arxiv.org/abs/2109.07161">https://arxiv.org/abs/2109.07161</a></p>
-<p>提出了一种新的方法，称为大掩模修复。LaMa基于i）一种新的修复网络结构，该结构使用快速傅立叶卷积（FFC），具有图像宽的感受野；ii）高感受野感知loss；iii）大型训练面具，释放前两个组件的潜力</p>
+<p>来自笔者刷过的一个b站视频<a href="https://www.bilibili.com/video/BV1CF411h79V?p=1&amp;share_medium=android&amp;share_plat=android&amp;share_session_id=1e56755a-6465-4c3d-b979-8453dce731cf&amp;share_source=QQ&amp;share_tag=s_i&amp;timestamp=1638952063&amp;unique_k=o1mjmzT">用AI算法P掉毕导！结果非常的amazing啊！</a>技术相关资料包括<a href="https://github.com/saic-mdal/lama">代码</a>和<a href="https://arxiv.org/abs/2109.07161">论文</a></p>
+<p>提出了一种新的方法，称为大掩模修复。LaMa基于</p>
+<p>i）一种新的修复网络结构，该结构使用快速傅立叶卷积（FFC），具有图像宽的感受野；</p>
+<p>ii）高感受野感知loss；</p>
+<p>iii）大型训练面具，释放前两个组件的潜力</p>
 </blockquote>
 <hr>
 <p>未完待续···</p>
