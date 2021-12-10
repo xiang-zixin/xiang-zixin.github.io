@@ -931,6 +931,24 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 <ul>
 <li>使用辐射计遥感探测的只是海洋的皮层温度。</li>
 </ul>
+<p><strong>皮层深度的物理意义？</strong></p>
+<ul>
+<li>
+<p>只有接近海面非常薄的水层的水分子发射的电磁波能够溢出水面,所以表面薄层水分子的平均温度决定了海表面的辐射强度，代表了热红外辐射计或者微波辐射计探测的海表面温度。</p>
+</li>
+<li>
+<p>使用辐射计遥感探测的只是海洋的皮层温度。与依靠浮标或水桶法在水下大约0.3~1m处测量的次表层体积海表面温度有不可忽略的差异。</p>
+<p>图(a)表示无论夜间还是白天，当强风（U10 &gt;6 m/s） 时充分混合的上表层温度剖面；图(b)表示在白天强日照和弱风条件下层化的上表层温度剖面。</p>
+<img src="../blogImages/卫星海洋学mooc学习/image-20211210100408590.png" alt="image-20211210100408590" style="zoom: 67%;" />
+</li>
+</ul>
+<blockquote>
+<p>​	    <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mrow><mn>11</mn><mtext>µ</mtext><mi>m</mi></mrow></msub></mrow><annotation encoding="application/x-tex">T_{11µm}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11µ</span><span class="mord mathnormal mtight">m</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> ：波长11 µm的热红外光辐射计测量的温度</p>
+<p>​		<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mrow><mn>10</mn><mi>G</mi><mi>H</mi><mi>z</mi></mrow></msub></mrow><annotation encoding="application/x-tex">T_{10GHz}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span><span class="mord mathnormal mtight">G</span><span class="mord mathnormal mtight" style="margin-right:0.04398em;">Hz</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> ：频率为10GHz的微波辐射计测量的温度</p>
+<p>​		<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mi>b</mi></msub></mrow><annotation encoding="application/x-tex">T_b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>：浮标测量的温度</p>
+<p>​		<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mi>s</mi></msub></mrow><annotation encoding="application/x-tex">T_s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> ：海表面温度</p>
+<p>​		<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Δ</mi><mi>T</mi></mrow><annotation encoding="application/x-tex">ΔT</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span></span></span></span> ：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∣</mi><msub><mi>T</mi><mi>s</mi></msub><mo>−</mo><msub><mi>T</mi><mi>b</mi></msub><mi mathvariant="normal">∣</mi></mrow><annotation encoding="application/x-tex">|T_s-T_b|</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span></span></span></span> 三条黑色线段分别代表对以上三个测量温度有贡献的海水厚度层；</p>
+</blockquote>
 <h4 id="穿透深度（Penetration-Depth）">穿透深度（Penetration Depth）</h4>
 <p><strong>定义</strong>：辐照度衰减为初始值的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mi mathvariant="normal">/</mi><mi>e</mi></mrow><annotation encoding="application/x-tex">1/e</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1/</span><span class="mord mathnormal">e</span></span></span></span> 所在的深度， 用 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>Z</mi><mn>90</mn></msub></mrow><annotation encoding="application/x-tex">Z_{90}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;">Z</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0715em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">90</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 表示。</p>
 <ul>
@@ -939,7 +957,45 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 </ul>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>z</mi><mn>90</mn></msub><mo>=</mo><mfrac><msub><mi>d</mi><mrow><mi>s</mi><mi>k</mi><mi>i</mi><mi>n</mi></mrow></msub><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">z_{90}=\frac{d_{skin}}{2}
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.04398em;">z</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.044em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">90</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.0574em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">d</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">s</span><span class="mord mathnormal mtight">kin</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
-<img src="../blogImages/卫星海洋学mooc学习/image-20211206195820931.png" alt="image-20211206195820931" style="zoom: 67%;" />
+<p><strong>穿透深度有多深呢？</strong></p>
+<p>穿透深度与水体组成成分、波长有关</p>
+<ul>
+<li>比较清澈的南海某海域</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>波段</th>
+<th>穿透深度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>490nm(蓝绿光)</td>
+<td>30m</td>
+</tr>
+<tr>
+<td>430~480nm(蓝)/500~580nm(绿)</td>
+<td>20m</td>
+</tr>
+<tr>
+<td>400~430nm/590~610nm</td>
+<td>10m</td>
+</tr>
+<tr>
+<td>620~700nm(红)</td>
+<td>1~3m</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<p>浑浊水域，比如渤海，490nm的平均穿透深度仅在7m左右；</p>
+</li>
+<li>
+<p>高浑浊水域（河口），所有波长的穿透深度都在1米以内。</p>
+</li>
+</ul>
 <h4 id="衰减系数（-Attenuation-Coefficient）">衰减系数（ Attenuation Coefficient）</h4>
 <p><strong>定义</strong>: 可由朗伯-比尔透射定律的微分形式计算</p>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>k</mi><mi>a</mi></msub><mrow><mo fence="true">(</mo><mi>λ</mi><mo fence="true">)</mo></mrow><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mrow><mi>L</mi><mrow><mo fence="true">(</mo><mi>λ</mi><mo fence="true">)</mo></mrow></mrow></mfrac><mfrac><mrow><mi>d</mi><mi>L</mi><mrow><mo fence="true">(</mo><mi>λ</mi><mo separator="true">,</mo><mi>z</mi><mo fence="true">)</mo></mrow></mrow><mrow><mi>d</mi><mi>z</mi></mrow></mfrac><mtext>      </mtext><mi>L</mi><mrow><mo fence="true">(</mo><mi>λ</mi><mo separator="true">,</mo><mi>z</mi><mo fence="true">)</mo></mrow><mtext>是辐亮度</mtext></mrow><annotation encoding="application/x-tex">k_a\left( \lambda \right) =-\frac{1}{L\left( \lambda \right)}\frac{dL\left( \lambda ,z \right)}{dz}\ \ \ \ \ \ L\left( \lambda ,z \right) \text{是辐亮度}
@@ -984,7 +1040,7 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 <h4 id="6-2-2-有边界的辐射传输方程">6.2.2 有边界的辐射传输方程</h4>
 <img src="../blogImages/卫星海洋学mooc学习/image-20211207210238212.png" alt="image-20211207210238212" style="zoom:80%;" />
 <img src="../blogImages/卫星海洋学mooc学习/image-20211207210316385.png" alt="image-20211207210316385" style="zoom:80%;" />
-<h4 id="6-3-3-大气窗">6.3.3  大气窗</h4>
+<h4 id="6-2-3-大气窗">6.2.3  大气窗</h4>
 <p><strong>定义</strong>：大气透过率比较大的波段</p>
 <p>波段3.7～4.1µm和10～12µm存在两个热红外窗口，是用于星载辐射计探测海面温度的重要波段。</p>
 <img src="../blogImages/卫星海洋学mooc学习/image-20211208203016607.png" alt="image-20211208203016607" style="zoom:80%;" />
