@@ -95,6 +95,30 @@
 ]]></content>
   </entry>
   <entry>
+    <title>【荐书】气Py：Python气象资料处理与可视化</title>
+    <url>/p/6e653ffe.html</url>
+    <content><![CDATA[<p>适合从事气象数据处理的新手，比较系统全面，如果早一点有这本书，笔者当初入门会快得多！</p>
+<p>刚出来的pdf书稿，排版朴实无华但不凌乱，算尝鲜版。</p>
+<img src="../blogImages/【荐书】气Py：-Python气象资料处理与可视化/image-20211211210446454.png" alt="image-20211211210446454" style="zoom:80%;" />
+<p><strong>内容简介</strong><br>
+本书主要内容为Python在气象领域的应用之一：气象数据处理与可视化。 对Python语言及其语法基础进行了介绍，方便读者快速入门。在搭建气象数据处理与可视化环境后，通过学习绘制基础的科学图形，详解Python可视化的核心工具 Matplotlib 的工作原理，逐步建立基本的数据可视化思路。进而通过丰 富的示例，配合详尽的代码，讲解不同格式气象数据的处理工具与方法，绘制气象科研或业务中常用的各类型图表。</p>
+<p><strong>目录</strong></p>
+<img src="../blogImages/【荐书】气Py：-Python气象资料处理与可视化/image-20211211212008720.png" alt="image-20211211212008720" style="zoom:50%;" />
+<img src="../blogImages/【荐书】气Py：-Python气象资料处理与可视化/image-20211211212100817.png" alt="image-20211211212100817" style="zoom: 50%;" />
+<img src="../blogImages/【荐书】气Py：-Python气象资料处理与可视化/image-20211211212133385.png" alt="image-20211211212133385" style="zoom:50%;" />
+<blockquote>
+<p>评论区留言获取，注意留下邮箱哦！</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>书籍</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>zotero入门</title>
     <url>/p/95d0620.html</url>
     <content><![CDATA[<p>我其实本来使用的是endnoteX9，但是经过b站一群人的安利，发现Zotero更好用一些，因为它是开源的，所以集合了各种plugs之后简直强无敌（甚至做笔记还支持markdown，这就很舒服了）。</p>
@@ -134,30 +158,6 @@
       <tags>
         <tag>备忘</tag>
         <tag>zotero</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【荐书】气Py：Python气象资料处理与可视化</title>
-    <url>/p/6e653ffe.html</url>
-    <content><![CDATA[<p>适合从事气象数据处理的新手，比较系统全面，如果早一点有这本书，笔者当初入门会快得多！</p>
-<p>刚出来的pdf书稿，排版朴实无华但不凌乱，算尝鲜版。</p>
-<img src="../blogImages/【荐书】气Py：-Python气象资料处理与可视化/image-20211211210446454.png" alt="image-20211211210446454" style="zoom:80%;" />
-<p><strong>内容简介</strong><br>
-本书主要内容为Python在气象领域的应用之一：气象数据处理与可视化。 对Python语言及其语法基础进行了介绍，方便读者快速入门。在搭建气象数据处理与可视化环境后，通过学习绘制基础的科学图形，详解Python可视化的核心工具 Matplotlib 的工作原理，逐步建立基本的数据可视化思路。进而通过丰 富的示例，配合详尽的代码，讲解不同格式气象数据的处理工具与方法，绘制气象科研或业务中常用的各类型图表。</p>
-<p><strong>目录</strong></p>
-<img src="../blogImages/【荐书】气Py：-Python气象资料处理与可视化/image-20211211212008720.png" alt="image-20211211212008720" style="zoom:50%;" />
-<img src="../blogImages/【荐书】气Py：-Python气象资料处理与可视化/image-20211211212100817.png" alt="image-20211211212100817" style="zoom: 50%;" />
-<img src="../blogImages/【荐书】气Py：-Python气象资料处理与可视化/image-20211211212133385.png" alt="image-20211211212133385" style="zoom:50%;" />
-<blockquote>
-<p>评论区留言获取，注意留下邮箱哦！</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-        <tag>书籍</tag>
       </tags>
   </entry>
   <entry>
@@ -1240,6 +1240,58 @@ b 满船清梦压星河</li>
       </tags>
   </entry>
   <entry>
+    <title>有关台风</title>
+    <url>/p/2ed372d2.html</url>
+    <content><![CDATA[<p>本文旨在做一个有关台风的小科普。</p>
+<h1>台风百科</h1>
+<p>维基百科的介绍，十分详细全面。</p>
+<a class="btn-beautify button--animated block center larger" href="https://chinois.jinzhao.wiki/wiki/%E7%86%B1%E5%B8%B6%E6%B0%A3%E6%97%8B" 
+  title="热带气旋"><i class="far fa-hand-point-right"></i><span>热带气旋</span></a>
+<h1>台风视频</h1>
+<p>先推荐一位b站的up主<a href="https://space.bilibili.com/17466521?from=search&amp;seid=498129991493630499&amp;spm_id_from=333.337.0.0">风羽酱-sdk</a>的视频，当然作为一名追风者，他还有很多类似的优质的“台风的故事”视频，让我们一起感受一下台风的壮观：</p>
+<a class="btn-beautify button--animated block center larger" href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0" 
+  title="杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》"><i class="far fa-hand-point-right"></i><span>杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</span></a>
+<p>两图均为视频中所截，为拥有完美风眼的两个超强台风。<br>
+<img src="https://z3.ax1x.com/2021/11/17/I5Eo5T.png" width="80%"><br>
+<img src="https://z3.ax1x.com/2021/11/17/I5VrLR.png" width="80%"></p>
+<h1>台风命名</h1>
+<p>台风的得名有故事，<strong>台风的名字</strong>更有故事。每年台风季，人们都能记住几个新名字：“悟空”飞走了，“杜鹃”着陆了，“山竹”滚过来了……这些千奇百怪的名字，是世界气象组织的14个成员国家和地区各自提名10个、经由全体认可的结果，然后按英文首字母排序，循环使用，年复一年。<br>
+<img src="https://z3.ax1x.com/2021/11/17/I5maJf.png" width="50%"></p>
+<center> 使用中的台风中文名称一览表。按从左到右、从上到下的顺序为台风命名。框线加粗的部分，就是2020年的1~30号台风的名字。制图/密林 </center>
+<br />
+对于造成严重伤亡和损失的台风，台风委员会经过讨论确认，会将它的名字拎出名单、与这场台风绑定，不再参与循环，也就是新闻常说的“除名”。腾出的空位，则由该台风的命名成员提交新名字补上。<br />
+<blockquote>
+<p>作者：地道风物<br>
+链接：<a href="https://www.zhihu.com/question/31820631/answer/1407437070">https://www.zhihu.com/question/31820631/answer/1407437070</a><br>
+来源：知乎</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>台风</tag>
+        <tag>科普</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>太平洋的风——山东长岛行</title>
+    <url>/p/5a878871.html</url>
+    <content><![CDATA[<p>万物起源：一篇携程游记</p>
+<a class="btn-beautify button--animated block center larger" href="https://you.ctrip.com/travel/1369542.html" 
+  title="太平洋的风——山东长岛行"><i class="far fa-hand-point-right"></i><span>太平洋的风——山东长岛行</span></a>
+<p>今年最大的遗憾就是国庆假期去蓬莱的时候正好赶上大风预警不能出海，长岛之行也就泡汤了。</p>
+<div class="justified-gallery"><p><img src="../blogImages/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%9A%84%E9%A3%8E%E2%80%94%E2%80%94%E5%B1%B1%E4%B8%9C%E9%95%BF%E5%B2%9B%E8%A1%8C/096877792E58DAB22D7BDC570ED6B254-16392293073621.jpg" alt="丹崖仙境"><br><img src="../blogImages/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%9A%84%E9%A3%8E%E2%80%94%E2%80%94%E5%B1%B1%E4%B8%9C%E9%95%BF%E5%B2%9B%E8%A1%8C/F5D57B85099E3D59F909F479099013F6-16392293073642.jpg" alt="亭台楼阁"><br><img src="../blogImages/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%9A%84%E9%A3%8E%E2%80%94%E2%80%94%E5%B1%B1%E4%B8%9C%E9%95%BF%E5%B2%9B%E8%A1%8C/6D444EDF818CB43DFA3F4F17F2591F56-16392293073643.jpg" alt="戚继光战刀"></p>
+          </div>
+]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>游记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>田园时代</title>
     <url>/p/f9f014ce.html</url>
     <content><![CDATA[<p>美，一旦在这个世界表现出来，就不会泯灭。——川端康成</p>
@@ -1436,58 +1488,6 @@ b 满船清梦压星河</li>
       <tags>
         <tag>搬运</tag>
         <tag>Typora</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>太平洋的风——山东长岛行</title>
-    <url>/p/5a878871.html</url>
-    <content><![CDATA[<p>万物起源：一篇携程游记</p>
-<a class="btn-beautify button--animated block center larger" href="https://you.ctrip.com/travel/1369542.html" 
-  title="太平洋的风——山东长岛行"><i class="far fa-hand-point-right"></i><span>太平洋的风——山东长岛行</span></a>
-<p>今年最大的遗憾就是国庆假期去蓬莱的时候正好赶上大风预警不能出海，长岛之行也就泡汤了。</p>
-<div class="justified-gallery"><p><img src="../blogImages/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%9A%84%E9%A3%8E%E2%80%94%E2%80%94%E5%B1%B1%E4%B8%9C%E9%95%BF%E5%B2%9B%E8%A1%8C/096877792E58DAB22D7BDC570ED6B254-16392293073621.jpg" alt="丹崖仙境"><br><img src="../blogImages/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%9A%84%E9%A3%8E%E2%80%94%E2%80%94%E5%B1%B1%E4%B8%9C%E9%95%BF%E5%B2%9B%E8%A1%8C/F5D57B85099E3D59F909F479099013F6-16392293073642.jpg" alt="亭台楼阁"><br><img src="../blogImages/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%9A%84%E9%A3%8E%E2%80%94%E2%80%94%E5%B1%B1%E4%B8%9C%E9%95%BF%E5%B2%9B%E8%A1%8C/6D444EDF818CB43DFA3F4F17F2591F56-16392293073643.jpg" alt="戚继光战刀"></p>
-          </div>
-]]></content>
-      <categories>
-        <category>旅行</category>
-      </categories>
-      <tags>
-        <tag>游记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>有关台风</title>
-    <url>/p/2ed372d2.html</url>
-    <content><![CDATA[<p>本文旨在做一个有关台风的小科普。</p>
-<h1>台风百科</h1>
-<p>维基百科的介绍，十分详细全面。</p>
-<a class="btn-beautify button--animated block center larger" href="https://chinois.jinzhao.wiki/wiki/%E7%86%B1%E5%B8%B6%E6%B0%A3%E6%97%8B" 
-  title="热带气旋"><i class="far fa-hand-point-right"></i><span>热带气旋</span></a>
-<h1>台风视频</h1>
-<p>先推荐一位b站的up主<a href="https://space.bilibili.com/17466521?from=search&amp;seid=498129991493630499&amp;spm_id_from=333.337.0.0">风羽酱-sdk</a>的视频，当然作为一名追风者，他还有很多类似的优质的“台风的故事”视频，让我们一起感受一下台风的壮观：</p>
-<a class="btn-beautify button--animated block center larger" href="https://www.bilibili.com/video/BV1Y34y1S7sQ?from=search&seid=18161649055479728259&spm_id_from=333.337.0.0" 
-  title="杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》"><i class="far fa-hand-point-right"></i><span>杜比视界｜上帝视角下的蔚蓝星球-《台风的故事特辑》</span></a>
-<p>两图均为视频中所截，为拥有完美风眼的两个超强台风。<br>
-<img src="https://z3.ax1x.com/2021/11/17/I5Eo5T.png" width="80%"><br>
-<img src="https://z3.ax1x.com/2021/11/17/I5VrLR.png" width="80%"></p>
-<h1>台风命名</h1>
-<p>台风的得名有故事，<strong>台风的名字</strong>更有故事。每年台风季，人们都能记住几个新名字：“悟空”飞走了，“杜鹃”着陆了，“山竹”滚过来了……这些千奇百怪的名字，是世界气象组织的14个成员国家和地区各自提名10个、经由全体认可的结果，然后按英文首字母排序，循环使用，年复一年。<br>
-<img src="https://z3.ax1x.com/2021/11/17/I5maJf.png" width="50%"></p>
-<center> 使用中的台风中文名称一览表。按从左到右、从上到下的顺序为台风命名。框线加粗的部分，就是2020年的1~30号台风的名字。制图/密林 </center>
-<br />
-对于造成严重伤亡和损失的台风，台风委员会经过讨论确认，会将它的名字拎出名单、与这场台风绑定，不再参与循环，也就是新闻常说的“除名”。腾出的空位，则由该台风的命名成员提交新名字补上。<br />
-<blockquote>
-<p>作者：地道风物<br>
-链接：<a href="https://www.zhihu.com/question/31820631/answer/1407437070">https://www.zhihu.com/question/31820631/answer/1407437070</a><br>
-来源：知乎</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>台风</tag>
-        <tag>科普</tag>
       </tags>
   </entry>
   <entry>
