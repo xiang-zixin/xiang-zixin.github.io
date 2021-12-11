@@ -157,7 +157,8 @@
     detectApple()
     })(window)</script><link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.min.css" media="defer" onload="this.media='all'"><script async src="https://cdn.jsdelivr.net/npm/hexo-butterfly-tag-plugins-plus@latest/lib/carousel-touch.min.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="相子心のBlog" type="application/atom+xml">
 </head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/rabbit.jpeg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">20</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://img0.baidu.com/it/u=2716859772,620557832&amp;fm=26&amp;fmt=auto')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">相子心のBlog</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">git与github入门命令整理</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-11-20T12:21:03.000Z" title="发表于 2021-11-20 20:21:03">2021-11-20</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-12-11T01:36:59.964Z" title="更新于 2021-12-11 09:36:59">2021-12-11</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">677</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="git与github入门命令整理"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>本文为笔者在学习<a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600">廖雪峰老师的Git教程</a>时的一些简单的入门命令的整理，廖老师的Git教程浅显易懂，适合初学者，特此推荐！</p>
-<h2 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h2><p>初始化一个Git仓库，使用<code>git init</code>命令。</p>
+<h2 id="创建版本库">创建版本库</h2>
+<p>初始化一个Git仓库，使用<code>git init</code>命令。</p>
 <p>添加文件到Git仓库，分两步：</p>
 <ol>
 <li>使用命令<code>git add &lt;file&gt;</code>，注意，可反复多次使用，添加多个文件；</li>
@@ -165,37 +166,45 @@
 </ol>
 <a class="btn-beautify button--animated block center larger" target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600/896827951938304" 
   title="创建版本库"><i class="far fa-hand-point-right"></i><span>创建版本库</span></a>
-<h2 id="时光机穿梭"><a href="#时光机穿梭" class="headerlink" title="时光机穿梭"></a>时光机穿梭</h2><ul>
+<h2 id="时光机穿梭">时光机穿梭</h2>
+<ul>
 <li>要随时掌握工作区的状态，使用<code>git status</code>命令。</li>
 <li>如果<code>git status</code>告诉你有文件被修改过，用<code>git diff</code>可以查看修改内容。</li>
 </ul>
 <a class="btn-beautify button--animated block center larger" target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600/896954074659008" 
   title="时光机穿梭"><i class="far fa-hand-point-right"></i><span>时光机穿梭</span></a>
-<h3 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h3><ul>
+<h3 id="版本回退">版本回退</h3>
+<ul>
 <li><code>HEAD</code>指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令<code>git reset --hard commit_id</code>。</li>
 <li>穿梭前，用<code>git log</code>可以查看提交历史，以便确定要回退到哪个版本。</li>
 <li>要重返未来，用<code>git reflog</code>查看命令历史，以便确定要回到未来的哪个版本。</li>
 </ul>
 <a class="btn-beautify button--animated block center larger" target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600/897013573512192" 
   title="版本回退"><i class="far fa-hand-point-right"></i><span>版本回退</span></a>
-<h3 id="工作区和暂存区"><a href="#工作区和暂存区" class="headerlink" title="工作区和暂存区"></a>工作区和暂存区</h3><a class="btn-beautify button--animated block center larger" target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600/897271968352576" 
+<h3 id="工作区和暂存区">工作区和暂存区</h3>
+<a class="btn-beautify button--animated block center larger" target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600/897271968352576" 
   title="工作区和暂存区"><i class="far fa-hand-point-right"></i><span>工作区和暂存区</span></a>
-<h3 id="管理修改"><a href="#管理修改" class="headerlink" title="管理修改"></a>管理修改</h3><p>每次修改，如果不用<code>git add</code>到暂存区，那就不会加入到<code>commit</code>中。</p>
+<h3 id="管理修改">管理修改</h3>
+<p>每次修改，如果不用<code>git add</code>到暂存区，那就不会加入到<code>commit</code>中。</p>
 <a class="btn-beautify button--animated block center larger" target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600/897884457270432" 
   title="管理修改"><i class="far fa-hand-point-right"></i><span>管理修改</span></a>
-<h3 id="撤销修改"><a href="#撤销修改" class="headerlink" title="撤销修改"></a>撤销修改</h3><ul>
+<h3 id="撤销修改">撤销修改</h3>
+<ul>
 <li>场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令<code>git checkout -- file</code>。</li>
 <li>场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令<code>git reset HEAD &lt;file&gt;</code>，就回到了场景1，第二步按场景1操作。</li>
 <li>场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。</li>
 </ul>
 <a class="btn-beautify button--animated block center larger" target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600/897889638509536" 
   title="撤销修改"><i class="far fa-hand-point-right"></i><span>撤销修改</span></a>
-<h3 id="删除文件"><a href="#删除文件" class="headerlink" title="删除文件"></a>删除文件</h3><p>命令<code>git rm</code>用于删除一个文件。</p>
+<h3 id="删除文件">删除文件</h3>
+<p>命令<code>git rm</code>用于删除一个文件。</p>
 <a class="btn-beautify button--animated block center larger" target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600/900002180232448" 
   title="删除文件"><i class="far fa-hand-point-right"></i><span>删除文件</span></a>
-<h2 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h2><a class="btn-beautify button--animated block center larger" target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416" 
+<h2 id="远程仓库">远程仓库</h2>
+<a class="btn-beautify button--animated block center larger" target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416" 
   title="远程仓库"><i class="far fa-hand-point-right"></i><span>远程仓库</span></a>
-<h3 id="添加远程库"><a href="#添加远程库" class="headerlink" title="添加远程库"></a>添加远程库</h3><ul>
+<h3 id="添加远程库">添加远程库</h3>
+<ul>
 <li>要关联一个远程库，使用命令<code>git remote add origin git@server-name:path/repo-name.git</code>；</li>
 <li>关联一个远程库时必须给远程库指定一个名字，<code>origin</code>是默认习惯命名；</li>
 <li>关联后，使用命令<code>git push -u origin master</code>第一次推送master分支的所有内容；</li>
@@ -203,7 +212,8 @@
 </ul>
 <a class="btn-beautify button--animated block center larger" target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600/898732864121440" 
   title="添加远程库"><i class="far fa-hand-point-right"></i><span>添加远程库</span></a>
-<h3 id="从远程库克隆"><a href="#从远程库克隆" class="headerlink" title="从远程库克隆"></a>从远程库克隆</h3><p>要克隆一个仓库，首先必须知道仓库的地址，然后使用<code>git clone</code>命令克隆。</p>
+<h3 id="从远程库克隆">从远程库克隆</h3>
+<p>要克隆一个仓库，首先必须知道仓库的地址，然后使用<code>git clone</code>命令克隆。</p>
 <p>Git支持多种协议，包括<code>https</code>，但<code>ssh</code>协议速度最快。</p>
 <a class="btn-beautify button--animated block center larger" target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600/898732792973664" 
   title="从远程库克隆"><i class="far fa-hand-point-right"></i><span>从远程库克隆</span></a>
