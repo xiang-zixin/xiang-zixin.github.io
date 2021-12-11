@@ -69,10 +69,13 @@
     <title>【荐书】气Py：Python气象资料处理与可视化</title>
     <url>/p/6e653ffe.html</url>
     <content><![CDATA[<p>适合从事气象数据处理的新手，比较系统全面，如果早一点有这本书，笔者当初入门会快得多！</p>
-<p>刚出来的书稿，排版朴实无华但不凌乱，算尝鲜版。</p>
-<p><img src="../blogImages/【荐书】气Py：-Python气象资料处理与可视化/image-20211211161834952.png" alt="image-20211211161834952" style="zoom: 80%;" /></p>
-<p>请务必发布一条朋友圈、一条微博、一条动态…<br>分享给你的同事/同学<br>May sharing break through the shackles.</p>
+<p>刚出来的pdf书稿，排版朴实无华但不凌乱，算尝鲜版。</p>
+<p><img src="../blogImages/【荐书】气Py：-Python气象资料处理与可视化/image-20211211210446454.png" alt="image-20211211210446454" style="zoom:80%;" /></p>
 <p><strong>内容简介</strong><br>本书主要内容为Python在气象领域的应用之一：气象数据处理与可视化。 对Python语言及其语法基础进行了介绍，方便读者快速入门。在搭建气象数据处理与可视化环境后，通过学习绘制基础的科学图形，详解Python可视化的核心工具 Matplotlib 的工作原理，逐步建立基本的数据可视化思路。进而通过丰 富的示例，配合详尽的代码，讲解不同格式气象数据的处理工具与方法，绘制气象科研或业务中常用的各类型图表。</p>
+<p><strong>目录</strong></p>
+<p><img src="../blogImages/【荐书】气Py：-Python气象资料处理与可视化/image-20211211212008720.png" alt="image-20211211212008720" style="zoom:50%;" /></p>
+<p><img src="../blogImages/【荐书】气Py：-Python气象资料处理与可视化/image-20211211212100817.png" alt="image-20211211212100817" style="zoom: 50%;" /></p>
+<p><img src="../blogImages/【荐书】气Py：-Python气象资料处理与可视化/image-20211211212133385.png" alt="image-20211211212133385" style="zoom:50%;" /></p>
 <blockquote>
 <p>评论区留言获取，注意留下邮箱哦！</p>
 </blockquote>
@@ -163,17 +166,19 @@
 <p><em>字体是斜线的哦</em></p>
 <h2 id="字体加粗"><a href="#字体加粗" class="headerlink" title="字体加粗"></a>字体加粗</h2><figure class="highlight asciidoc"><table><tr><td class="code"><pre><span class="line"><span class="strong">**字体是加粗的哦**</span></span><br></pre></td></tr></table></figure>
 <p><strong>字体是加粗的哦</strong></p>
-<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line"><span class="string">`code`</span></span><br></pre></td></tr></table></figure>
+<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>行内</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line"><span class="string">`code`</span></span><br></pre></td></tr></table></figure>
 <p><code>code</code></p>
+<p>block</p>
 <figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line"><span class="string">``</span><span class="string">`</span></span><br><span class="line"><span class="string">code</span></span><br><span class="line"><span class="string">`</span><span class="string">``</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight clean"><table><tr><td class="code"><pre><span class="line"><span class="keyword">code</span></span><br></pre></td></tr></table></figure>
 <h2 id="引用内容"><a href="#引用内容" class="headerlink" title="引用内容"></a>引用内容</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;</span><span class="bash">我的内容是引用的哦</span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>我的内容是引用的哦</p>
+</blockquote>
 <h2 id="Button"><a href="#Button" class="headerlink" title="Button"></a>Button</h2><figure class="highlight mipsasm"><table><tr><td class="code"><pre><span class="line">&#123;% <span class="keyword">btn </span><span class="string">&#x27;https://xiang-zixin.github.io&#x27;</span>,相子心の<span class="keyword">blog,far </span>fa-hand-point-right,<span class="keyword">block </span>center larger %&#125;</span><br></pre></td></tr></table></figure>
 <a class="btn-beautify button--animated block center larger" href="https://xiang-zixin.github.io" 
   title="相子心のblog"><i class="far fa-hand-point-right"></i><span>相子心のblog</span></a>
-</blockquote>
 <h2 id="Tabs"><a href="#Tabs" class="headerlink" title="Tabs"></a>Tabs</h2><figure class="highlight django"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">tabs</span> %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- tab tab1 --&gt;</span></span></span><br><span class="line"><span class="xml"></span></span><br><span class="line"><span class="xml">text1</span></span><br><span class="line"><span class="xml"></span></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- endtab --&gt;</span></span></span><br><span class="line"><span class="xml"></span></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- tab tab2 --&gt;</span></span></span><br><span class="line"><span class="xml"></span></span><br><span class="line"><span class="xml">text2</span></span><br><span class="line"><span class="xml"></span></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- endtab --&gt;</span></span></span><br><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">endtabs</span> %&#125;</span></span><br></pre></td></tr></table></figure>
 <div class="tabs" id=""><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#-1">tab1</button></li><li class="tab"><button type="button" data-href="#-2">tab2</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="-1"><p>text1</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="-2"><p>text2</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
 <h2 id="Gallery"><a href="#Gallery" class="headerlink" title="Gallery"></a>Gallery</h2><figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">&#123;% gallery %&#125;</span><br><span class="line">![丹崖仙境](..<span class="regexp">/blogImages/</span>博文写作(Markdown基础使用)/<span class="number">096877792</span>E58DAB22D7BDC570ED6B254.jpg)</span><br><span class="line">![亭台楼阁](..<span class="regexp">/blogImages/</span>博文写作(Markdown基础使用)/F5D57B85099E3D59F909F479099013F6.jpg)</span><br><span class="line">![戚继光战刀](..<span class="regexp">/blogImages/</span>博文写作(Markdown基础使用)/<span class="number">6</span>D444EDF818CB43DFA3F4F17F2591F56.jpg)</span><br><span class="line">&#123;% endgallery %&#125;</span><br></pre></td></tr></table></figure>
@@ -203,6 +208,7 @@
 <figure class="highlight django"><table><tr><td class="code"><pre><span class="line"><span class="xml">臣亮言：</span><span class="template-tag">&#123;% <span class="name">label</span> 先帝 %&#125;</span><span class="xml">创业未半，而</span><span class="template-tag">&#123;% <span class="name">label</span> 中道崩殂 blue %&#125;</span><span class="xml">。今天下三分，</span><span class="template-tag">&#123;% <span class="name">label</span> 益州疲敝 pink %&#125;</span><span class="xml">，此诚</span><span class="template-tag">&#123;% <span class="name">label</span> 危急存亡之秋 red %&#125;</span><span class="xml">也！然侍衞之臣，不懈于内；</span><span class="template-tag">&#123;% <span class="name">label</span> 忠志之士 purple %&#125;</span><span class="xml">，忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气；不宜妄自菲薄，引喻失义，以塞忠谏之路也。</span></span><br><span class="line"><span class="xml">宫中、府中，俱为一体；陟罚臧否，不宜异同。若有</span><span class="template-tag">&#123;% <span class="name">label</span> 作奸 orange %&#125;</span><span class="xml">、</span><span class="template-tag">&#123;% <span class="name">label</span> 犯科 green %&#125;</span><span class="xml">，及为忠善者，宜付有司，论其刑赏，以昭陛下平明之治；不宜偏私，使内外异法也。</span></span><br></pre></td></tr></table></figure>
 <p>臣亮言：<mark class="hl-label default">先帝</mark> 创业未半，而<mark class="hl-label blue">中道崩殂</mark> 。今天下三分，<mark class="hl-label pink">益州疲敝</mark> ，此诚<mark class="hl-label red">危急存亡之秋</mark> 也！然侍衞之臣，不懈于内；<mark class="hl-label purple">忠志之士</mark> ，忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气；不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br>宫中、府中，俱为一体；陟罚臧否，不宜异同。若有<mark class="hl-label orange">作奸</mark> 、<mark class="hl-label green">犯科</mark> ，及为忠善者，宜付有司，论其刑赏，以昭陛下平明之治；不宜偏私，使内外异法也。</p>
 <h2 id="链接卡片-link"><a href="#链接卡片-link" class="headerlink" title="链接卡片 link"></a>链接卡片 link</h2><figure class="highlight django"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">link</span> 标题, 链接, 图片链接（可选） %&#125;</span></span><br></pre></td></tr></table></figure>
+<div class="tag link"><a class="link-card" title="相子心のBlog" href="http://xiang-zixin.github.io"><div class="left"><img src="/img/linkcard.png"/></div><div class="right"><p class="text">相子心のBlog</p><p class="url">http://xiang-zixin.github.io</p></div></a></div>
 ]]></content>
       <categories>
         <category>博客</category>
@@ -218,12 +224,9 @@
     <content><![CDATA[<p>万物起源：一篇携程游记</p>
 <a class="btn-beautify button--animated block center larger" href="https://you.ctrip.com/travel/1369542.html" 
   title="太平洋的风——山东长岛行"><i class="far fa-hand-point-right"></i><span>太平洋的风——山东长岛行</span></a>
-<p><img src="../blogImages/太平洋的风——山东长岛行/096877792E58DAB22D7BDC570ED6B254.jpg" alt="img"></p>
-<p>​                                                                                                         丹崖仙境</p>
-<p><img src="../blogImages/太平洋的风——山东长岛行/F5D57B85099E3D59F909F479099013F6.jpg" alt="img"></p>
-<p>​                                                                                                             亭台楼阁</p>
-<p><img src="../blogImages/太平洋的风——山东长岛行/6D444EDF818CB43DFA3F4F17F2591F56.jpg" alt="img"></p>
-<p>​                                                                                                         戚继光战刀</p>
+<p>今年最大的遗憾就是国庆假期去蓬莱的时候正好赶上大风预警不能出海，长岛之行也就泡汤了。</p>
+<div class="justified-gallery"><p><img src="../blogImages/太平洋的风——山东长岛行/096877792E58DAB22D7BDC570ED6B254-16392293073621.jpg" alt="丹崖仙境"><br><img src="../blogImages/太平洋的风——山东长岛行/F5D57B85099E3D59F909F479099013F6-16392293073642.jpg" alt="亭台楼阁"><br><img src="../blogImages/太平洋的风——山东长岛行/6D444EDF818CB43DFA3F4F17F2591F56-16392293073643.jpg" alt="戚继光战刀"></p>
+          </div>
 ]]></content>
       <categories>
         <category>旅行</category>
