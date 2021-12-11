@@ -4,7 +4,7 @@
     <title>git与github入门命令整理</title>
     <url>/p/2e606060.html</url>
     <content><![CDATA[<p>本文为笔者在学习<a href="https://www.liaoxuefeng.com/wiki/896043488029600">廖雪峰老师的Git教程</a>时的一些简单的入门命令的整理，廖老师的Git教程浅显易懂，适合初学者，特此推荐！</p>
-<h1>创建版本库</h1>
+<h2 id="创建版本库">创建版本库</h2>
 <p>初始化一个Git仓库，使用<code>git init</code>命令。</p>
 <p>添加文件到Git仓库，分两步：</p>
 <ol>
@@ -13,14 +13,14 @@
 </ol>
 <a class="btn-beautify button--animated block center larger" href="https://www.liaoxuefeng.com/wiki/896043488029600/896827951938304" 
   title="创建版本库"><i class="far fa-hand-point-right"></i><span>创建版本库</span></a>
-<h1>时光机穿梭</h1>
+<h2 id="时光机穿梭">时光机穿梭</h2>
 <ul>
 <li>要随时掌握工作区的状态，使用<code>git status</code>命令。</li>
 <li>如果<code>git status</code>告诉你有文件被修改过，用<code>git diff</code>可以查看修改内容。</li>
 </ul>
 <a class="btn-beautify button--animated block center larger" href="https://www.liaoxuefeng.com/wiki/896043488029600/896954074659008" 
   title="时光机穿梭"><i class="far fa-hand-point-right"></i><span>时光机穿梭</span></a>
-<h2 id="版本回退">版本回退</h2>
+<h3 id="版本回退">版本回退</h3>
 <ul>
 <li><code>HEAD</code>指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令<code>git reset --hard commit_id</code>。</li>
 <li>穿梭前，用<code>git log</code>可以查看提交历史，以便确定要回退到哪个版本。</li>
@@ -28,14 +28,14 @@
 </ul>
 <a class="btn-beautify button--animated block center larger" href="https://www.liaoxuefeng.com/wiki/896043488029600/897013573512192" 
   title="版本回退"><i class="far fa-hand-point-right"></i><span>版本回退</span></a>
-<h2 id="工作区和暂存区">工作区和暂存区</h2>
+<h3 id="工作区和暂存区">工作区和暂存区</h3>
 <a class="btn-beautify button--animated block center larger" href="https://www.liaoxuefeng.com/wiki/896043488029600/897271968352576" 
   title="工作区和暂存区"><i class="far fa-hand-point-right"></i><span>工作区和暂存区</span></a>
-<h2 id="管理修改">管理修改</h2>
+<h3 id="管理修改">管理修改</h3>
 <p>每次修改，如果不用<code>git add</code>到暂存区，那就不会加入到<code>commit</code>中。</p>
 <a class="btn-beautify button--animated block center larger" href="https://www.liaoxuefeng.com/wiki/896043488029600/897884457270432" 
   title="管理修改"><i class="far fa-hand-point-right"></i><span>管理修改</span></a>
-<h2 id="撤销修改">撤销修改</h2>
+<h3 id="撤销修改">撤销修改</h3>
 <ul>
 <li>场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令<code>git checkout -- file</code>。</li>
 <li>场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令<code>git reset HEAD &lt;file&gt;</code>，就回到了场景1，第二步按场景1操作。</li>
@@ -43,14 +43,14 @@
 </ul>
 <a class="btn-beautify button--animated block center larger" href="https://www.liaoxuefeng.com/wiki/896043488029600/897889638509536" 
   title="撤销修改"><i class="far fa-hand-point-right"></i><span>撤销修改</span></a>
-<h2 id="删除文件">删除文件</h2>
+<h3 id="删除文件">删除文件</h3>
 <p>命令<code>git rm</code>用于删除一个文件。</p>
 <a class="btn-beautify button--animated block center larger" href="https://www.liaoxuefeng.com/wiki/896043488029600/900002180232448" 
   title="删除文件"><i class="far fa-hand-point-right"></i><span>删除文件</span></a>
-<h1>远程仓库</h1>
+<h2 id="远程仓库">远程仓库</h2>
 <a class="btn-beautify button--animated block center larger" href="https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416" 
   title="远程仓库"><i class="far fa-hand-point-right"></i><span>远程仓库</span></a>
-<h2 id="添加远程库">添加远程库</h2>
+<h3 id="添加远程库">添加远程库</h3>
 <ul>
 <li>要关联一个远程库，使用命令<code>git remote add origin git@server-name:path/repo-name.git</code>；</li>
 <li>关联一个远程库时必须给远程库指定一个名字，<code>origin</code>是默认习惯命名；</li>
@@ -59,7 +59,7 @@
 </ul>
 <a class="btn-beautify button--animated block center larger" href="https://www.liaoxuefeng.com/wiki/896043488029600/898732864121440" 
   title="添加远程库"><i class="far fa-hand-point-right"></i><span>添加远程库</span></a>
-<h2 id="从远程库克隆">从远程库克隆</h2>
+<h3 id="从远程库克隆">从远程库克隆</h3>
 <p>要克隆一个仓库，首先必须知道仓库的地址，然后使用<code>git clone</code>命令克隆。</p>
 <p>Git支持多种协议，包括<code>https</code>，但<code>ssh</code>协议速度最快。</p>
 <a class="btn-beautify button--animated block center larger" href="https://www.liaoxuefeng.com/wiki/896043488029600/898732792973664" 
@@ -74,6 +74,25 @@
         <tag>备忘</tag>
         <tag>搬运</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/p/4a17b156.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>博文写作(Markdown基础使用)</title>
@@ -189,23 +208,24 @@ b 满船清梦压星河</li>
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/p/4a17b156.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>太平洋的风——山东长岛行</title>
+    <url>/p/5a878871.html</url>
+    <content><![CDATA[<p>万物起源：一篇携程游记</p>
+<a class="btn-beautify button--animated block center larger" href="https://you.ctrip.com/travel/1369542.html" 
+  title="太平洋的风——山东长岛行"><i class="far fa-hand-point-right"></i><span>太平洋的风——山东长岛行</span></a>
+<p><img src="../blogImages/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%9A%84%E9%A3%8E%E2%80%94%E2%80%94%E5%B1%B1%E4%B8%9C%E9%95%BF%E5%B2%9B%E8%A1%8C/096877792E58DAB22D7BDC570ED6B254.jpg" alt="img"></p>
+<p>​                                                                                                         丹崖仙境</p>
+<p><img src="../blogImages/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%9A%84%E9%A3%8E%E2%80%94%E2%80%94%E5%B1%B1%E4%B8%9C%E9%95%BF%E5%B2%9B%E8%A1%8C/F5D57B85099E3D59F909F479099013F6.jpg" alt="img"></p>
+<p>​                                                                                                             亭台楼阁</p>
+<p><img src="../blogImages/%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%9A%84%E9%A3%8E%E2%80%94%E2%80%94%E5%B1%B1%E4%B8%9C%E9%95%BF%E5%B2%9B%E8%A1%8C/6D444EDF818CB43DFA3F4F17F2591F56.jpg" alt="img"></p>
+<p>​                                                                                                         戚继光战刀</p>
 ]]></content>
+      <categories>
+        <category>旅行</category>
+      </categories>
+      <tags>
+        <tag>游记</tag>
+      </tags>
   </entry>
   <entry>
     <title>卫星海洋学mooc学习</title>
@@ -478,7 +498,7 @@ $$
 <p>代表太阳到被观测海面的光束方向与被观测海面法线之间的夹角</p>
 </li>
 <li>
-<p><strong>观测角(view angle) a</strong></p>
+<p><strong>观测角/入射角(view angle) a</strong></p>
 <p>描述卫星观测方向与星下点海面法线之间的夹角</p>
 </li>
 </ul>
@@ -942,13 +962,11 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 <img src="../blogImages/卫星海洋学mooc学习/image-20211210100408590.png" alt="image-20211210100408590" style="zoom: 67%;" />
 </li>
 </ul>
-<blockquote>
 <p>​	    <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mrow><mn>11</mn><mtext>µ</mtext><mi>m</mi></mrow></msub></mrow><annotation encoding="application/x-tex">T_{11µm}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">11µ</span><span class="mord mathnormal mtight">m</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> ：波长11 µm的热红外光辐射计测量的温度</p>
 <p>​		<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mrow><mn>10</mn><mi>G</mi><mi>H</mi><mi>z</mi></mrow></msub></mrow><annotation encoding="application/x-tex">T_{10GHz}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span><span class="mord mathnormal mtight">G</span><span class="mord mathnormal mtight" style="margin-right:0.04398em;">Hz</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> ：频率为10GHz的微波辐射计测量的温度</p>
 <p>​		<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mi>b</mi></msub></mrow><annotation encoding="application/x-tex">T_b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>：浮标测量的温度</p>
 <p>​		<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mi>s</mi></msub></mrow><annotation encoding="application/x-tex">T_s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> ：海表面温度</p>
 <p>​		<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Δ</mi><mi>T</mi></mrow><annotation encoding="application/x-tex">ΔT</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span></span></span></span> ：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∣</mi><msub><mi>T</mi><mi>s</mi></msub><mo>−</mo><msub><mi>T</mi><mi>b</mi></msub><mi mathvariant="normal">∣</mi></mrow><annotation encoding="application/x-tex">|T_s-T_b|</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">s</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span></span></span></span> 三条黑色线段分别代表对以上三个测量温度有贡献的海水厚度层；</p>
-</blockquote>
 <h4 id="穿透深度（Penetration-Depth）">穿透深度（Penetration Depth）</h4>
 <p><strong>定义</strong>：辐照度衰减为初始值的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mi mathvariant="normal">/</mi><mi>e</mi></mrow><annotation encoding="application/x-tex">1/e</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1/</span><span class="mord mathnormal">e</span></span></span></span> 所在的深度， 用 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>Z</mi><mn>90</mn></msub></mrow><annotation encoding="application/x-tex">Z_{90}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07153em;">Z</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0715em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">90</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 表示。</p>
 <ul>
@@ -965,26 +983,26 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 <table>
 <thead>
 <tr>
-<th>波段</th>
-<th>穿透深度</th>
+<th style="text-align:center">波段</th>
+<th style="text-align:center">穿透深度</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>490nm(蓝绿光)</td>
-<td>30m</td>
+<td style="text-align:center">490nm(蓝绿光)</td>
+<td style="text-align:center">30m</td>
 </tr>
 <tr>
-<td>430~480nm(蓝)/500~580nm(绿)</td>
-<td>20m</td>
+<td style="text-align:center">430~480nm(蓝)/500~580nm(绿)</td>
+<td style="text-align:center">20m</td>
 </tr>
 <tr>
-<td>400~430nm/590~610nm</td>
-<td>10m</td>
+<td style="text-align:center">400~430nm/590~610nm</td>
+<td style="text-align:center">10m</td>
 </tr>
 <tr>
-<td>620~700nm(红)</td>
-<td>1~3m</td>
+<td style="text-align:center">620~700nm(红)</td>
+<td style="text-align:center">1~3m</td>
 </tr>
 </tbody>
 </table>
@@ -1146,6 +1164,36 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 <img src="../blogImages/卫星海洋学mooc学习/image-20211209215110147.png" alt="image-20211209215110147" style="zoom:67%;" />
 <img src="../blogImages/卫星海洋学mooc学习/image-20211209215126979.png" alt="image-20211209215126979" style="zoom:67%;" />
 <img src="../blogImages/卫星海洋学mooc学习/image-20211209215156453.png" alt="image-20211209215156453" style="zoom:67%;" />
+<h2 id="10-散射计遥感原理与应用">10 散射计遥感原理与应用</h2>
+<h3 id="10-1-散射计">10.1 散射计</h3>
+<p>Remote Sensing System网站整合了部分散射计和微波辐射计的风场产品，并提供沿轨风场产品的预览图，方便大家快速查询与下载，例如，如果我们想知道2019年9月1日ASCAT观测的某个海域的风场状况，输入日期和区域就可以看到ASCAT当天升轨或降轨运行时所观测的海面风场。</p>
+<a class="btn-beautify button--animated block center larger" href="http://www.remss.com" 
+  title="Remote Sensing System"><i class="far fa-hand-point-right"></i><span>Remote Sensing System</span></a>
+<h3 id="10-2-标准化雷达后向散射截面">10.2  标准化雷达后向散射截面</h3>
+<p><img src="../blogImages/%E5%8D%AB%E6%98%9F%E6%B5%B7%E6%B4%8B%E5%AD%A6mooc%E5%AD%A6%E4%B9%A0/image-20211211110504264.png" alt="image-20211211110504264"></p>
+<p><img src="../blogImages/%E5%8D%AB%E6%98%9F%E6%B5%B7%E6%B4%8B%E5%AD%A6mooc%E5%AD%A6%E4%B9%A0/image-20211211111543338.png" alt="image-20211211111543338"></p>
+<p>由于 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>σ</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">σ_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 变化范围太大，经常用 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>σ</mi><mn>0</mn></msub><mo stretchy="false">[</mo><mtext>dB</mtext><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">σ_0[\text{dB}]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">[</span><span class="mord text"><span class="mord">dB</span></span><span class="mclose">]</span></span></span></span>表示</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>σ</mi><mn>0</mn></msub><mrow><mo fence="true">[</mo><mtext>dB</mtext><mo fence="true">]</mo></mrow><mo>=</mo><mn>10</mn><mi>log</mi><mo>⁡</mo><mrow><mo fence="true">(</mo><msub><mi>σ</mi><mn>0</mn></msub><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">\sigma _0\left[ \text{dB} \right] =10\log \left( \sigma _0 \right)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">[</span><span class="mord text"><span class="mord">dB</span></span><span class="mclose delimcenter" style="top:0em;">]</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose delimcenter" style="top:0em;">)</span></span></span></span></span></span></p>
+<blockquote>
+<p>式中左侧代表用dB（分贝）表达的 σ0 [dB]，右侧代表原始定义的 𝜎_0</p>
+<p>例如，如果𝜎0是100，𝜎_0 [dB]就是20；如果 𝜎_0 是0.001，𝜎_0 [dB]就是–30</p>
+<p>注意，分贝（dB）仅仅是数学单位，它不代表物理上的量纲</p>
+</blockquote>
+<h3 id="10-3-电磁波在粗糙海面的散射">10.3 电磁波在粗糙海面的散射</h3>
+<p><strong>两尺度散射模型（Two-Scale Scattering Model）</strong></p>
+<p>考虑到海面上长波和短波这两个尺度波浪的客观存在，学者们发展了组合的表面散射模型（Composite-surface scattering model）来计算Bragg散射产生的NRCS，也称<strong>两尺度散射模型</strong>（Two-scale scattering model）</p>
+<h3 id="10-4-海面风反演模型">10.4 海面风反演模型</h3>
+<p>散射计风场反演精度：</p>
+<p>► 中低风速范围内（4-24 m/s），风速反演精度优于 2m/s，相对平均误差达到10%</p>
+<p>► 风向反演精度优于20°</p>
+<p><strong>CMOD5.N经验模型 (Hersbach, 2010)</strong></p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>σ</mi><mn>0</mn></msub><mo>=</mo><mi>B</mi><mn>0</mn><msup><mrow><mo fence="true">(</mo><mn>1</mn><mo>+</mo><mi>B</mi><mn>1</mn><mi>cos</mi><mo>⁡</mo><mi>φ</mi><mo>+</mo><mi>B</mi><mn>2</mn><mi>cos</mi><mo>⁡</mo><mn>2</mn><mi>φ</mi><mo fence="true">)</mo></mrow><mn>1.6</mn></msup></mrow><annotation encoding="application/x-tex">\sigma _0=B0\left( 1+B1\cos \varphi +B2\cos 2\varphi \right) ^{1.6}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">σ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.204em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mord">0</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mord">1</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop">cos</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">φ</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mord">2</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop">cos</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">2</span><span class="mord mathnormal">φ</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1.6</span></span></span></span></span></span></span></span></span></span></span></span></span></p>
+<blockquote>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>φ</mi></mrow><annotation encoding="application/x-tex">\varphi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">φ</span></span></span></span> 是观测方位角，即海面风向与雷达视向之间的夹角</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>B</mi><mn>0</mn></msub><mtext>、</mtext><msub><mi>B</mi><mn>1</mn></msub><mtext>、</mtext><msub><mi>B</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">B_0、B_1、B_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0502em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord cjk_fallback">、</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0502em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord cjk_fallback">、</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0502em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 为系数，由海面风速、雷达入射角确定</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>学习</category>
