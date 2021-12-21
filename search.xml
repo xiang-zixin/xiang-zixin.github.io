@@ -250,7 +250,7 @@ b 满船清梦压星河</li>
 <p>臣亮言：<mark class="hl-label default">先帝</mark> 创业未半，而<mark class="hl-label blue">中道崩殂</mark> 。今天下三分，<mark class="hl-label pink">益州疲敝</mark> ，此诚<mark class="hl-label red">危急存亡之秋</mark> 也！然侍衞之臣，不懈于内；<mark class="hl-label purple">忠志之士</mark> ，忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气；不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br>
 宫中、府中，俱为一体；陟罚臧否，不宜异同。若有<mark class="hl-label orange">作奸</mark> 、<mark class="hl-label green">犯科</mark> ，及为忠善者，宜付有司，论其刑赏，以昭陛下平明之治；不宜偏私，使内外异法也。</p>
 <h2 id="链接卡片-link">链接卡片 link</h2>
-<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">&#123;% link 标题, 链接, 图片链接（可选） %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% link 相子心のBlog, http:<span class="regexp">//</span>xiang-zixin.github.io, <span class="regexp">/img/</span>linkcard.png %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">&#123;% link 标题, 链接, <span class="regexp">/img/</span>linkcard.png %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% link 相子心のBlog, http:<span class="regexp">//</span>xiang-zixin.github.io, <span class="regexp">/img/</span>linkcard.png %&#125;</span><br></pre></td></tr></table></figure>
 <div class="tag link"><a class="link-card" title="相子心のBlog" href="http://xiang-zixin.github.io"><div class="left"><img src="/img/linkcard.png"/></div><div class="right"><p class="text">相子心のBlog</p><p class="url">http://xiang-zixin.github.io</p></div></a></div>
 <h2 id="折叠框-folding">折叠框 folding</h2>
 <figure class="highlight django"><table><tr><td class="code"><pre><span class="line"><span class="template-tag">&#123;% <span class="name">folding</span> 参数（可选）, 标题 %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml">text</span></span><br><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">endfolding</span> %&#125;</span></span><br></pre></td></tr></table></figure>
@@ -1653,9 +1653,8 @@ $$
   <entry>
     <title>【搬运】通过Python脚本获得Typora正版授权</title>
     <url>/p/ac2e572e.html</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://blog.huran.xyz/post/27145.html">原文链接</a></p>
-</blockquote>
+    <content><![CDATA[<a class="btn-beautify button--animated block center larger" href="https://blog.huran.xyz/post/27145.html" 
+  title="原文链接"><i class="far fa-hand-point-right"></i><span>原文链接</span></a>
 <h2 id="前言">前言</h2>
 <p>11月23日，Typora 正式发布 1.0 版本，进入了收费时代。<br>
 1.0 版本是一次性付费而非订阅的，只要支付人民币 89 元，可以在 3 台设备里使用。</p>
@@ -1840,6 +1839,7 @@ SEASCODE , SEAS1 , SEAS2 , SEAS3 , SEAS4</p>
 <h3 id="RADP-系统外围的气压">RADP 系统外围的气压</h3>
 <p>pressure in millibars of the last closed isobar, 900 - 1050 mb.</p>
 <p>系统最外侧闭合等压圈气压值（即系统外围的气压），单位“百帕”</p>
+<div class="tag link"><a class="link-card" title="气压单位mb、mbar、hPa是什么意思" href="https://wenwen.soso.com/z/q655117232.htm"><div class="left"><img src="/img/linkcard.png"/></div><div class="right"><p class="text">气压单位mb、mbar、hPa是什么意思</p><p class="url">https://wenwen.soso.com/z/q655117232.htm</p></div></a></div>
 <h3 id="RRP-系统最外侧闭合等压圈半径">RRP 系统最外侧闭合等压圈半径</h3>
 <p>radius of the last closed isobar in nm, 0 - 9999 nm.</p>
 <p>系统最外侧闭合等压圈半径，单位“海里”</p>
