@@ -1981,20 +1981,16 @@ TAU = 0</p>
 <a class="btn-beautify button--animated block center larger" href="https://www.obormot.net/demos/these-waifus-do-not-exist" 
   title="这群waifu不存在"><i class="far fa-hand-point-right"></i><span>这群waifu不存在</span></a>
 <p>值得一提的是，在下方第二个链接中，提到了现在纸片人老婆不仅可以随机生成，还可以在一定程度上定制，专一党的福音！</p>
-<blockquote>
 <p>想要了解更多<strong>不存在系列</strong>,参见【量子位】的<a href="https://cloud.tencent.com/developer/article/1417171">这些waifu、猫、人都不存在！英伟达StyleGAN已催生一堆假片网站</a>以及<a href="https://www.zhihu.com/zvideo/1370813973143613440?utm_source=qq&amp;utm_medium=social&amp;utm_oi=1077322305721503744">这些不存在的纸片人老婆，都是AI内斗出来的</a></p>
-</blockquote>
 <h2 id="cleanup">cleanup</h2>
 <p>可以神奇地完美地P掉图片中你觉得不应该存在的事物，个人尝试过用它来去水印，非常amazing。</p>
 <a class="btn-beautify button--animated block center larger" href="https://cleanup.pictures/" 
   title="cleanup"><i class="far fa-hand-point-right"></i><span>cleanup</span></a>
-<blockquote>
 <p>来自笔者刷过的一个b站视频<a href="https://www.bilibili.com/video/BV1CF411h79V?p=1&amp;share_medium=android&amp;share_plat=android&amp;share_session_id=1e56755a-6465-4c3d-b979-8453dce731cf&amp;share_source=QQ&amp;share_tag=s_i&amp;timestamp=1638952063&amp;unique_k=o1mjmzT">用AI算法P掉毕导！结果非常的amazing啊！</a>技术相关资料包括<a href="https://github.com/saic-mdal/lama">代码</a>和<a href="https://arxiv.org/abs/2109.07161">论文</a></p>
 <p>提出了一种新的方法，称为大掩模修复。LaMa基于</p>
 <p>i）一种新的修复网络结构，该结构使用快速傅立叶卷积（FFC），具有图像宽的感受野；</p>
 <p>ii）高感受野感知loss；</p>
 <p>iii）大型训练面具，释放前两个组件的潜力</p>
-</blockquote>
 <hr>
 <h2 id="CloudConvert">CloudConvert</h2>
 <p>convert anything to anything</p>
@@ -2007,7 +2003,7 @@ TAU = 0</p>
   title="CloudConvert"><i class="far fa-hand-point-right"></i><span>CloudConvert</span></a>
 <hr>
 <p>未完待续···</p>
-<p>你有收藏的好玩的网站吗？不妨留在评论区向我分享一下哈哈</p>
+<p>你有收藏的好玩的网站吗？不妨在评论区向我分享一下哈哈</p>
 ]]></content>
       <categories>
         <category>黑科技</category>
